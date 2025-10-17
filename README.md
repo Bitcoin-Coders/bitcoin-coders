@@ -2,7 +2,7 @@
 
 > Aprenda, construa e contribua para o ecossistema Bitcoin — da base à comunidade.
 
-![Bitcoin Coders Logo](https://bitcoin-coders.github.io/assets/logo.jpg)
+![Bitcoin Coders Logo](assets/logo.jpg)
 
 ---
 
