@@ -8,7 +8,7 @@
 
 ## 🌍 Sobre
 
-O **Bitcoin Coders** é uma iniciativa educacional e colaborativa dedicada à formação de desenvolvedores Bitcoin — desde os fundamentos de programação até a contribuição direta no código do **Bitcoin Core**.
+O **Bitcoin Coders** é uma iniciativa educacional dedicada à formação de desenvolvedores Bitcoin, desde os fundamentos de programação até a contribuição direta no código do **Bitcoin Core**.
 
 Nosso objetivo é criar uma trilha prática, aberta e evolutiva, conectando teoria, código e comunidade.  
 Cada Era representa uma fase dessa jornada.
@@ -20,24 +20,15 @@ Cada Era representa uma fase dessa jornada.
 | Era | Foco | Descrição |
 |------|------|------------|
 | 🧬 [**Era Gênese**](https://github.com/Bitcoin-Coders/era-genese) | Fundamentos | Programação, lógica, redes, criptografia e introdução ao Bitcoin. |
-| ⚙️ [**Era Satoshi**](https://github.com/Bitcoin-Coders/era-satoshi) | Desenvolvimento | Criação de aplicações Bitcoin, uso de SDKs e integração com Lightning. |
+| ⚙️ [**Era Satoshi**](https://github.com/Bitcoin-Coders/era-satoshi) | Desenvolvimento | Criação de aplicações Bitcoin, uso de SDKs e APIs e integração com Lightning. |
 | 🧠 [**Era Core**](https://github.com/Bitcoin-Coders/era-core) | Código-fonte | Entendimento e leitura do código do Bitcoin Core. |
 | 🌎 [**Era Comunidade**](https://github.com/Bitcoin-Coders/era-comunidade) | Colaboração | Governança, versionamento, BIPs e boas práticas open source. |
 
 Cada Era contém:
 - **Artigos** explicativos  
-- **Vídeos** com demonstrações  
-- **BitUps** (workshops e desafios práticos)  
-- **Scripts e códigos** utilizados nas aulas e laboratórios  
-
----
-
-## 🚀 BitUps (Workshops)
-
-Os **BitUps** são experiências práticas para aplicar o que foi aprendido em cada Era.  
-Eles envolvem desafios de código, análises, mini-projetos e integrações reais.
-
-👉 [Acesse os BitUps](https://github.com/Bitcoin-Coders/bitups)
+- **Aulas em Vídeo** com demonstrações  
+- **Workshops** (Gravações de bitups práticos e online)  
+- **Scripts e códigos** utilizados nas aulas, artigos e workshops
 
 ---
 
@@ -58,15 +49,11 @@ Cada pasta (repositório) é autônoma, com seus próprios artigos, vídeos, bit
 
 ---
 
-## 🤝 Contribuição
+## 🤝 Apoiado por
 
-O projeto é **aberto** e colaborativo.  
-Você pode:
-- Abrir *issues* com sugestões ou dúvidas  
-- Criar *pull requests* com melhorias nos materiais  
-- Compartilhar BitUps e exemplos de código
+O **Bitcoin Coders** é uma iniciativa educacional e aberta, **apoiada pela [Área Bitcoin](https://areabitcoin.com)**.  
+O projeto tem como propósito fortalecer a formação técnica de desenvolvedores e impulsionar o ecossistema Bitcoin de forma transparente e acessível.
 
-📘 Consulte o guia de contribuição em [`docs/CONTRIBUTING.md`](https://github.com/Bitcoin-Coders/docs/blob/main/CONTRIBUTING.md)
 
 ---
 
