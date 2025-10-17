@@ -33,7 +33,6 @@ Cada **Nível** representa uma etapa de domínio técnico dentro de um dos eixos
 
 **Dentro de cada nível:**
 - 🎓 **Cursos:** Representação de dados, criptografia aplicada, lógica e estruturas de dados.  
-- 🧩 **Workshops:** Conversão de bases, hashing e simulações de redes.  
 - 🚀 **Programas:** Desafios de codificação e mini-projetos de fundamentos.
 
 ---
@@ -50,7 +49,6 @@ Cada **Nível** representa uma etapa de domínio técnico dentro de um dos eixos
 
 **Dentro de cada nível:**
 - 🎓 **Cursos:** Bitcoin CLI, integração com APIs e carteiras.  
-- 🧩 **Workshops:** Criação de apps, integração Lightning e SDKs.  
 - 🚀 **Programas:** Desenvolvimento de aplicações completas e contribuições open-source.
 
 ---
@@ -67,7 +65,6 @@ Cada **Nível** representa uma etapa de domínio técnico dentro de um dos eixos
 
 **Dentro de cada nível:**
 - 🎓 **Cursos:** Operação do Core, análise de blocos e RPCs.  
-- 🧩 **Workshops:** Debug de transações, mempool e validação.  
 - 🚀 **Programas:** Leitura de código, contribuição e testes no Core.
 
 ---
@@ -84,7 +81,6 @@ Cada **Nível** representa uma etapa de domínio técnico dentro de um dos eixos
 
 **Dentro de cada nível:**
 - 🎓 **Cursos:** Git, versionamento e guidelines open-source.  
-- 🧩 **Workshops:** PRs simulados, revisões e testes.  
 - 🚀 **Programas:** Contribuições reais em BIPs, Core e projetos comunitários.
 
 ---
