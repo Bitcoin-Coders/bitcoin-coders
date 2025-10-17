@@ -120,7 +120,7 @@ Cada pasta (ou repositório) é autônoma, contendo seus próprios artigos, víd
 
 ## 🤝 Apoiado por
 
-O **Bitcoin Coders** é uma iniciativa educacional e aberta, **apoiada pela [Área Bitcoin](https://areabitcoin.com.br)**.  
+O **Bitcoin Coders** é uma iniciativa educacional e aberta, **apoiada pela [Area Bitcoin](https://areabitcoin.com.br)**.  
 O projeto tem como propósito fortalecer a formação técnica de desenvolvedores e impulsionar o ecossistema Bitcoin de forma transparente e acessível.
 
 ---
