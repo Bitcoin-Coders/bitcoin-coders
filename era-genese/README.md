@@ -14,6 +14,44 @@ O foco não é aprender “programação básica”, mas sim **entender os funda
 
 ---
 
+## 🧱 Estrutura da Era
+
+```text
+era-genese/
+├── artigos/
+│   ├── 01-transformacoes-de-base.md
+│   ├── 02-criptografia-aplicada.md
+│   ├── 03-estruturas-de-dados.md
+│   ├── 04-programacao-concorrente.md
+│   ├── 05-redes-p2p.md
+│   └── 06-sistemas-distribuidos.md
+├── videos/
+│   ├── roteiro-01-transformacoes-de-base.md
+│   ├── roteiro-02-criptografia-aplicada.md
+│   └── (...)
+├── bitups/
+│   ├── bitup-01-bases-numericas/
+│   ├── bitup-02-hashes-e-checksums/
+│   ├── bitup-03-criptografia-simples/
+│   └── (...)
+├── scripts/
+│   ├── python/
+│   │   ├── convert_base58.py
+│   │   ├── checksum_sha256.py
+│   │   └── bech32_encoder.py
+│   └── c/
+│       ├── hash_manual.c
+│       └── p2p_socket_demo.c
+└── recursos/
+    ├── imagens/
+    ├── slides/
+    └── referencias.md
+```
+
+> *Dica:* use o bloco de código acima (com \`\`\`text) para manter os caracteres da árvore perfeitos no GitHub.
+
+---
+
 ## 🧩 Temas Principais
 
 | Tema | Descrição |
@@ -27,63 +65,27 @@ O foco não é aprender “programação básica”, mas sim **entender os funda
 
 ---
 
-## 🧱 Estrutura da Era
+## 🚀 BitUps (Workshops da Gênese)
 
-era-genese/
-├── artigos/
-│ ├── 01-transformacoes-de-base.md
-│ ├── 02-criptografia-aplicada.md
-│ ├── 03-estruturas-de-dados.md
-│ ├── 04-programacao-concorrente.md
-│ ├── 05-redes-p2p.md
-│ └── 06-sistemas-distribuidos.md
-├── videos/
-│ ├── roteiro-01-transformacoes-de-base.md
-│ ├── roteiro-02-criptografia-aplicada.md
-│ └── ...
-├── bitups/
-│ ├── bitup-01-bases-numericas/
-│ ├── bitup-02-hashes-e-checksums/
-│ ├── bitup-03-criptografia-simples/
-│ └── ...
-├── scripts/
-│ ├── python/
-│ │ ├── convert_base58.py
-│ │ ├── checksum_sha256.py
-│ │ └── bech32_encoder.py
-│ └── c/
-│ ├── hash_manual.c
-│ └── p2p_socket_demo.c
-└── recursos/
-├── imagens/
-├── slides/
-└── referencias.md
+Os **BitUps** desta Era são encontros ao vivo realizados mensalmente, com foco em teoria aplicada e prática guiada.
 
----
+**Exemplos:**
+- **BitUp #1 – Da Base Decimal ao Bech32**: Conversões e codificações numéricas aplicadas a endereços.
+- **BitUp #2 – Hashes e Integridade de Dados**: SHA256, checksum duplo e verificações.
+- **BitUp #3 – Estruturas de Dados para Blockchain**: Blocos, transações e Merkle em Python.
+- **BitUp #4 – Simulando Comunicação P2P**: Sockets e troca de mensagens entre nós.
 
-## 🚀 BitUps da Era Gênese
-
-Os **BitUps** desta Era são encontros ao vivo realizados mensalmente pelo Bitcoin Coders, com foco em teoria aplicada e prática guiada.
-
-### Exemplos de BitUps:
-| Título | Descrição |
-|--------|------------|
-| **BitUp #1 – Da Base Decimal ao Bech32** | Conversões e codificações numéricas aplicadas a endereços Bitcoin. |
-| **BitUp #2 – Hashes e Integridade de Dados** | Entendendo SHA256 e o conceito de checksum duplo usado em endereços. |
-| **BitUp #3 – Estruturas de Dados para Blockchain** | Implementação prática de blocos e transações em Python. |
-| **BitUp #4 – Simulando Comunicação P2P** | Criação de sockets e troca de mensagens entre nós simulados. |
-
-📅 Agenda completa: [bitcoincoders.org/bitups](https://bitcoincoders.org/bitups)
+📅 Agenda e inscrições: **bitcoincoders.org/bitups**
 
 ---
 
 ## 🧠 Objetivo Final
 
-Ao concluir a **Era Gênese**, o aluno será capaz de:
-- Entender profundamente como o Bitcoin se sustenta em fundamentos computacionais.  
-- Criar programas que simulam partes do funcionamento de uma blockchain.  
-- Ler e interpretar representações numéricas e criptográficas comuns no Bitcoin.  
-- Estar pronto para iniciar o desenvolvimento prático na **Era Satoshi**.
+Ao concluir a **Era Gênese**, você será capaz de:
+- Compreender como o Bitcoin se sustenta em fundamentos computacionais.
+- Implementar simulações de estruturas e processos típicos de uma blockchain.
+- Ler e interpretar representações numéricas e criptográficas comuns no Bitcoin.
+- Iniciar a prática de desenvolvimento na **Era Satoshi**.
 
 ---
 
