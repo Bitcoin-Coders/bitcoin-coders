@@ -1,7 +1,7 @@
 # 🧬 Era Gênese  
 > Fundamentos técnicos para o desenvolvimento no ecossistema Bitcoin.
 
-![Era Gênese Banner](https://bitcoin-coders.github.io/assets/genese-banner.png)
+![Era Gênese Banner](../assets/era-genese.png)
 
 ---
 
