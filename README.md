@@ -21,7 +21,7 @@ Cada **Nível** representa uma etapa de domínio técnico dentro de um dos eixos
 
 ---
 
-### 🧩 **1. Fundamentos de Programação para Desenvolvimento Bitcoin**
+### 🧩 **1. Fundamentos de Programação para Desenvolvimento em Bitcoin**
 
 > Lógica, estruturas, redes, criptografia, encoding, algoritmos, etc.
 
