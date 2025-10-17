@@ -19,7 +19,7 @@ Cada Era representa uma fase dessa jornada.
 
 | Era | Foco | Descrição |
 |------|------|------------|
-| 🧬 [**Era Gênese**](https://github.com/Bitcoin-Coders/era-genese) | Fundamentos | Base técnica para o desenvolvimento Bitcoin: Bases numéricas, Criptografia, Estruturas de dados e algoritmos para blockchain, Programação concorrente e assíncrona, Redes P2P e consenso distribuído. |
+| 🧬 [**Era Gênese**](era-genese) | Fundamentos | Base técnica para o desenvolvimento Bitcoin: Bases numéricas, Criptografia, Estruturas de dados e algoritmos para blockchain, Programação concorrente e assíncrona, Redes P2P e consenso distribuído. |
 | ⚙️ [**Era Satoshi**](https://github.com/Bitcoin-Coders/era-satoshi) | Desenvolvimento | Criação de aplicações Bitcoin, uso de SDKs e APIs e integração com Lightning. |
 | 🧠 [**Era Core**](https://github.com/Bitcoin-Coders/era-core) | Código-fonte | Entendimento e leitura do código do Bitcoin Core. |
 | 🌎 [**Era Comunidade**](https://github.com/Bitcoin-Coders/era-comunidade) | Colaboração | Governança, versionamento, BIPs e boas práticas open source. |
