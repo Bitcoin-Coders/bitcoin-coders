@@ -2,7 +2,7 @@
 > Fundamentos técnicos para o desenvolvimento no ecossistema Bitcoin.
 
 <p align="center">
-  <img src="../assets/era-genese.png" alt="Era Gênese Banner" width="800">
+  <img src="../assets/era-genese.png" alt="Era Gênese Banner" width="400">
 </p>
 
 ---
