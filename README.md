@@ -25,7 +25,7 @@ Cada eixo é composto por **Cursos** (conteúdo contínuo e modular) e **Program
 
 ---
 
-## 🧩 1. Fundamentos de Programação para Desenvolvimento em Bitcoin
+## 🧩 Eixo 1. Fundamentos de Programação para Desenvolvimento em Bitcoin
 > Lógica, estruturas, redes, criptografia, encoding e algoritmos.  
 > Este eixo forma a base técnica para toda a jornada no Bitcoin Coders.
 
@@ -71,7 +71,7 @@ Cada eixo é composto por **Cursos** (conteúdo contínuo e modular) e **Program
 
 ---
 
-## ⚡ 2. Desenvolvimento para o Ecossistema Bitcoin
+## ⚡ Eixo 2. Desenvolvimento para o Ecossistema Bitcoin
 > SDKs, Lightning, wallets, APIs, integrações fiat, apps e UX dev.
 
 Capacita o desenvolvedor a criar aplicações reais conectadas ao ecossistema Bitcoin.
@@ -85,7 +85,7 @@ Capacita o desenvolvedor a criar aplicações reais conectadas ao ecossistema Bi
 
 ---
 
-## 🧠 3. Bitcoin Core e Protocolos
+## 🧠 Eixo 3. Bitcoin Core e Protocolos
 > Internals, RPC, scripts, consenso, mineração, P2P, mempool.
 
 Explora o funcionamento interno do Bitcoin Core e prepara o aluno para contribuir diretamente no código-fonte.
@@ -98,7 +98,7 @@ Explora o funcionamento interno do Bitcoin Core e prepara o aluno para contribui
 
 ---
 
-## 🌍 4. Comunidade e Contribuição
+## 🌍 Eixo 4. Comunidade e Contribuição
 > BIPs, PRs, testes, versionamento, guidelines e cultura open source.
 
 Foca em capacitar desenvolvedores para contribuir com o ecossistema Bitcoin e liderar iniciativas open source.
