@@ -113,11 +113,11 @@ Foca em capacitar desenvolvedores para contribuir com o ecossistema Bitcoin e li
 
 ## 🎓 Níveis de Progressão
 
-| Nível | Foco | Descrição |
-|-------|------|------------|
-| 🥇 **Gênese** | Fundamentos | Lógica, codificação e criptografia aplicada. |
-| 🧱 **Satoshi** | Construção | Estruturas, redes e integrações Bitcoin. |
-| ⚙️ **Core** | Profundidade | Concorrência, consenso e contribuição ao Core. |
+| Nível | Foco | Descrição (maturidade do aluno) |
+|------|------|----------------------------------|
+| 🥇 **Gênese** | Fundamentos | Constrói base sólida de raciocínio computacional e modelagem de dados; entende conceitos essenciais de criptografia e redes em nível conceitual; produz scripts simples e corretos com orientação; começa a adotar boas práticas (claridade, versionamento básico). |
+| 🧱 **Satoshi** | Construção | Transforma conceitos em soluções funcionais; modela problemas, projeta interfaces mínimas e valida hipóteses; escreve código legível e testável; investiga e resolve erros com método; colabora em tarefas de baixa/média complexidade com autonomia crescente. |
+| ⚙️ **Core** | Profundidade | Raciocina sobre arquitetura, performance e segurança; antecipa trade-offs e consequências de design; escreve testes abrangentes e documentação clara; conduz revisões técnicas; contribui em problemas complexos e toma decisões com autonomia plena. |
 
 ---
 
