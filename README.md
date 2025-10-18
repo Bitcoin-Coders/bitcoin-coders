@@ -122,7 +122,7 @@ Foca em capacitar desenvolvedores para contribuir com o ecossistema Bitcoin e li
   - Templates  
   - bitcoin-coders.github.io  
 
-Cada pasta (ou repositório) contém seus próprios **Cursos**, **Programas** e **BitUps**.
+Cada pasta (ou repositório) contém seus próprios **Cursos** e **Programas**.
 
 ---
 
