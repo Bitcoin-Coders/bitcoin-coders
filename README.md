@@ -42,17 +42,16 @@ Cada eixo é composto por **Cursos** (conteúdo contínuo e modular) e **Program
 
 ---
 
-### ⚡ **Curso Especial — BitUp 1: Encoding e Hashes na Prática**
-> Workshop imersivo e independente, com foco em prática aplicada.  
-> Nível Gênese.
+### ⚡ **Cursos Especiais — BitUps (Workshops Imersivos)**
 
-**Objetivo:** aplicar transformações de base e checagem de integridade em código.  
-**Desafios:**
-- Converter e validar strings entre hex, Base58 e Bech32.  
-- Gerar checksums e validar integridade com double-SHA256.  
-- Criar um mini validador Base58Check em Python.
 
-📦 *Entrega:* script funcional + relatório curto explicando o processo.
+| BitUp | Nível | Conteúdos Relacionados | Tema Central |
+|-------|-------|------------------------|---------------|
+| 🧩 **BitUp 1 — Encoding e Hashes na Prática** | Gênese | Representação de Dados + Criptografia | Transformações de base, hashing e verificação de integridade. |
+| 🌐 **BitUp 2 — Estruturas e Rede em Ação** | Satoshi | Estruturas de Dados + Redes P2P | Simulação de transmissão e validação de dados entre peers. |
+| ⚙️ **BitUp 3 — Concorrência e Consenso** | Core | Concorrência + Sistemas Distribuídos | Modelagem de consenso distribuído e tolerância a falhas. |
+
+Cada BitUp é um **workshop de curta duração (2h–4h)** com demonstrações ao vivo e prática guiada,proporcionando aprendizado aplicado e troca entre participantes.
 
 ---
 
