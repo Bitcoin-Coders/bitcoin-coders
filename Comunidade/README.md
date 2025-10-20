@@ -89,7 +89,7 @@ Os **BitUps** deste eixo conectam o domínio técnico com o comunitário, atrav�
 
 | BitUp | Nível | Tema | Status |
 |-------|-------|------|--------|
-| 🔧 **BitUp 1 — Git Workflow e PRs na Prática** | Gênese → Satoshi | Simulação de contribuição real (fork, branch, commit e PR) | Ativo |
+| 🔧 **BitUp 1 — Git Workflow e PRs na Prática** | Gênese → Satoshi | Simulação de contribuição real (fork, branch, commit e PR) | Em desenvolvimento |
 | 📜 **BitUp 2 — Escrevendo seu Primeiro BIP** | Satoshi | Estrutura e submissão de uma proposta técnica Bitcoin | Em desenvolvimento |
 | 🧠 **BitUp 3 — Revisão e Governança Colaborativa** | Core | Revisão coletiva e simulação de consenso comunitário | Em desenvolvimento |
 
