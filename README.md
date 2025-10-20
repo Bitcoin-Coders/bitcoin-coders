@@ -106,10 +106,7 @@ Cada eixo é composto por **Cursos** (conteúdo contínuo e modular) e **Program
   - Fundamentos  
   - Ecossistema  
   - Bitcoin Core  
-  - Comunidade  
-  - Docs  
-  - Templates  
-  - bitcoin-coders.github.io  
+  - Comunidade   
 
 Cada pasta contém seus próprios **Cursos** e **Programas**.
 
