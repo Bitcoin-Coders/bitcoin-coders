@@ -66,7 +66,7 @@ Cada eixo é composto por **Cursos** (conteúdo contínuo e modular) e **Program
 - Bitcoin CLI e RPC  
 - bitcoinjs-lib, python-bitcoinlib e rust-bitcoin  
 - BDK, LDK e Breez SDK  
-- BTCPay, Bipa e Strike  
+- BTCPay e Strike  
 - RGB, Fedimint e DID/Web5  
 
 ---
