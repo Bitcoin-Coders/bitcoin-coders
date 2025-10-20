@@ -65,7 +65,8 @@ Cada eixo é composto por **Cursos** (conteúdo contínuo e modular) e **Program
 📘 **Conteúdos principais:**
 - Bitcoin CLI e RPC  
 - bitcoinjs-lib, python-bitcoinlib e rust-bitcoin  
-- BDK, LDK e Breez SDK  
+- Lightning Network: canais, invoices, nodes e SDKs (LND, CLN, LDK, Breez)  
+- BDK (Bitcoin Development Kit) e integração com carteiras on-chain
 - BTCPay e Strike  
 - RGB, Fedimint e DID/Web5  
 
