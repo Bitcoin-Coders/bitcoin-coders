@@ -36,93 +36,66 @@ Cada eixo é composto por **Cursos** (conteúdo contínuo e modular) e **Program
 
 ---
 
-> 🔗 Cada pasta contém seus próprios **Cursos**, **Programas** e **BitUps (Workshops Especiais)**, organizados por nível:  
+> 🔗 Cada pasta contém seus próprios **Cursos** e **Programas**, organizados por nível:  
 > `Gênese → Satoshi → Core`
 
 ---
 
-## 🧩 Eixo 1. Fundamentos de Programação para Desenvolvimento em Bitcoin
+### 🧩 [Eixo 1. Fundamentos de Programação para Desenvolvimento em Bitcoin](./Fundamentos)
 > Lógica, estruturas, redes, criptografia, encoding e algoritmos.  
 > Este eixo forma a base técnica para toda a jornada no Bitcoin Coders.
 
-### 📘 **Cursos**
+🎯 **Objetivo:** Desenvolver a compreensão computacional e matemática necessária para pensar como um programador Bitcoin — aprendendo a representar, proteger e distribuir dados de forma segura e descentralizada.
 
-| Curso | Nível | Descrição | Principais Aulas |
-|--------|--------|------------|------------------|
-| 🧮 **Representação e Transformações de Bases Numéricas** | Gênese | Fundamentos da representação de dados e codificação. | Bases numéricas · Encoding e checagem de integridade |
-| 🔐 **Criptografia** | Gênese | Conceitos essenciais de segurança e integridade da informação. | Álgebra modular · Funções hash (SHA-256, RIPEMD-160) · Assinaturas digitais |
-| 🧱 **Estruturas de Dados e Algoritmos para Blockchain** | Satoshi | Estruturas e lógica usadas no armazenamento e validação de dados. | Árvores de Merkle · Modelo UTXO · Estruturas imutáveis |
-| 🌐 **Redes P2P e Protocolos de Comunicação** | Satoshi | Comunicação entre nodes e arquitetura distribuída. | Sockets TCP/IP · Gossip protocol e descoberta de peers |
-| ⚙️ **Programação Concorrente e Assíncrona** | Core | Execução paralela e controle de fluxos independentes. | Threads e mutexes · Async/await · Worker pools |
-| 🧠 **Sistemas Distribuídos e Consenso** | Core | Modelagem de sistemas tolerantes a falhas e consenso descentralizado. | CAP theorem · Fault tolerance · Difusão confiável |
-
----
-
-### ⚡ **Cursos Especiais — BitUps (Workshops Imersivos)**
-
-
-| BitUp | Nível | Conteúdos Relacionados | Tema Central |
-|-------|-------|------------------------|---------------|
-| 🧩 **BitUp 1 — Encoding e Hashes na Prática** | Gênese | Representação de Dados + Criptografia | Transformações de base, hashing e verificação de integridade. |
-| 🌐 **BitUp 2 — Estruturas e Rede em Ação** | Satoshi | Estruturas de Dados + Redes P2P | Simulação de transmissão e validação de dados entre peers. |
-| ⚙️ **BitUp 3 — Concorrência e Consenso** | Core | Concorrência + Sistemas Distribuídos | Modelagem de consenso distribuído e tolerância a falhas. |
-
-Cada BitUp é um **workshop de curta duração (2h–4h)** com demonstrações ao vivo e prática guiada,proporcionando aprendizado aplicado e troca entre participantes.
+📘 **Conteúdos principais:**
+- Representação e Transformações de Bases Numéricas  
+- Criptografia  
+- Estruturas de Dados e Algoritmos para Blockchain  
+- Redes P2P e Protocolos de Comunicação  
+- Programação Concorrente e Assíncrona  
+- Sistemas Distribuídos e Consenso  
 
 ---
 
-### 🚀 **Programa 1 – Fundamentos de Programação para Desenvolvimento em Bitcoin**
-
-📅 **Duração:** 3 semanas  
-🎯 **Objetivo:** consolidar os fundamentos técnicos do desenvolvimento em Bitcoin — das representações numéricas e estruturas de dados até redes P2P e sistemas distribuídos.
-
-| Semana | Formato | Foco | Entregável |
-|--------|----------|------|------------|
-| 1 | Gravado | Lógica, encoding e criptografia | Script de encoding e hash |
-| 2 | Ao vivo | Estruturas de dados e redes P2P | Protótipo P2P com Merkle |
-| 3 | Hackathon | Concorrência e consenso | Mini blockchain acadêmica |
-
-💡 **Resumo:** O programa integra os cursos do eixo de Fundamentos em uma trilha prática, com conteúdo gravado, aulas ao vivo e um hackathon final.
-
----
-
-## ⚡ Eixo 2. Desenvolvimento para o Ecossistema Bitcoin
+### ⚡ [Eixo 2. Desenvolvimento para o Ecossistema Bitcoin](./Ecossistema)
 > SDKs, Lightning, wallets, APIs, integrações fiat, apps e UX dev.
 
-Capacita o desenvolvedor a criar aplicações reais conectadas ao ecossistema Bitcoin.
+🎯 **Objetivo:** Capacitar o aluno a construir soluções práticas que interagem com o ecossistema Bitcoin — desde carteiras e Lightning apps até integrações com o mundo fiat.
 
-**Conteúdos principais:**  
+📘 **Conteúdos principais:**
 - Bitcoin CLI e RPC  
-- BitcoinJS, Python-Bitcoinlib, Rust-Bitcoin  
-- Lightning Network (LND, CLN, LDK, Breez SDK)  
-- Integrações Fiat (BTCPay, Bipa, Strike)  
-- RGB, Fedimint, DID/Web5  
+- bitcoinjs-lib, python-bitcoinlib e rust-bitcoin  
+- BDK, LDK e Breez SDK  
+- BTCPay, Bipa e Strike  
+- RGB, Fedimint e DID/Web5  
 
 ---
 
-## 🧠 Eixo 3. Bitcoin Core e Protocolos
-> Internals, RPC, scripts, consenso, mineração, P2P, mempool.
+### 🧠 [Eixo 3. Bitcoin Core e Protocolos](./Bitcoin-Core)
+> Internals, RPC, scripts, consenso, mineração, P2P e mempool.
 
-Explora o funcionamento interno do Bitcoin Core e prepara o aluno para contribuir diretamente no código-fonte.
+🎯 **Objetivo:** Ensinar o funcionamento interno do Bitcoin Core, suas estruturas de dados e protocolos, preparando o aluno para compreender e contribuir diretamente no código do Bitcoin.
 
-**Conteúdos principais:**  
-- Estrutura do Core e processos de validação  
+📘 **Conteúdos principais:**
+- Estrutura e compilação do Core  
 - Scripts Bitcoin, PSBT e descriptors  
-- Mempool, blocos e consenso  
-- Compilação, testes e PRs no Core  
+- Blocos, mempool e validação  
+- Consenso e mineração  
+- Testes funcionais e PRs no Core  
 
 ---
 
-## 🌍 Eixo 4. Comunidade e Contribuição
+### 🌍 [Eixo 4. Comunidade e Contribuição](./Comunidade)
 > BIPs, PRs, testes, versionamento, guidelines e cultura open source.
 
-Foca em capacitar desenvolvedores para contribuir com o ecossistema Bitcoin e liderar iniciativas open source.
+🎯 **Objetivo:** Desenvolver a maturidade técnica e colaborativa necessária para atuar como contribuidor ativo do ecossistema Bitcoin, participando de projetos, revisões e propostas de melhoria (BIPs).
 
-**Conteúdos principais:**  
+📘 **Conteúdos principais:**
 - Git e versionamento  
-- Revisão e submissão de PRs  
-- Processo de BIPs  
-- Governança e mentoria técnica  
+- Boas práticas de PRs e revisão de código  
+- Processo e estrutura de BIPs  
+- Testes, documentação e guidelines  
+- Cultura de contribuição e mentoria 
 
 ---
 
