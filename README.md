@@ -18,10 +18,26 @@ Nosso lema:
 
 ## 🧭 Estrutura Geral
 
-A jornada de aprendizado é dividida em **4 eixos de conhecimento**, cada um com **3 níveis de progressão**:  
+A jornada de aprendizado do **Bitcoin Coders** é dividida em **4 eixos de conhecimento**, cada um com **3 níveis de progressão**:  
 🥇 *Gênese (Iniciante)* · 🧱 *Satoshi (Builder)* · ⚙️ *Core (Avançado)*
 
 Cada eixo é composto por **Cursos** (conteúdo contínuo e modular) e **Programas** (imersões práticas de 3 semanas que integram os conteúdos do eixo).
+
+---
+
+### 📚 Eixos de Conhecimento
+
+| Eixo | Descrição | Link |
+|------|------------|------|
+| 🧩 **Fundamentos de Programação para Desenvolvimento em Bitcoin** | Lógica, estruturas, redes, criptografia, encoding e algoritmos. | [Abrir → Fundamentos](./Fundamentos) |
+| ⚡ **Desenvolvimento para o Ecossistema Bitcoin** | SDKs, Lightning, wallets, APIs, integrações fiat, apps e UX dev. | [Abrir → Ecossistema](./Ecossistema) |
+| 🧠 **Bitcoin Core e Protocolos** | Internals, RPC, scripts, consenso, mineração, P2P, mempool. | [Abrir → Bitcoin-Core](./Bitcoin-Core) |
+| 🌍 **Comunidade e Contribuição** | BIPs, PRs, testes, versionamento, guidelines e cultura open source. | [Abrir → Comunidade](./Comunidade) |
+
+---
+
+> 🔗 Cada pasta contém seus próprios **Cursos**, **Programas** e **BitUps (Workshops Especiais)**, organizados por nível:  
+> `Gênese → Satoshi → Core`
 
 ---
 
