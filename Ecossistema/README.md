@@ -98,10 +98,10 @@ São workshops curtos (2h–4h), com demonstrações ao vivo e experimentação 
 
 | BitUp | Nível | Conteúdos Relacionados | Link | PDF |
 |-------|-------|------------------------|------|-----|
-| 🪙 **BitUp 1 — Rodando Nós e Explorando as Redes do Bitcoin** | Gênese → Satoshi | Bitcoin CLI e RPC | [Acessar o curso](https://bitcoincoders.org/curso/carteiras-bitcoin-core) |[PDF](https://github.com/Bitcoin-Coders/bitcoin-coders/blob/main/Ecossistema/Bitup%20Coders%20-%2001.pdf)|
-| 🪙 **BitUp 2 — Carteiras Bitcoin Core** | Gênese → Satoshi | Bitcoin CLI e RPC | [Acessar o curso](https://bitcoincoders.org/curso/carteiras-bitcoin-core) |[PDF](https://github.com/Bitcoin-Coders/bitcoin-coders/blob/main/Ecossistema/Dominando%20as%20Carteiras%20no%20Bitcoin%20Core_%20Da%20Teoria%20%C3%A0%20Pr%C3%A1tica%20na%20Signet.pdf)|
-| 🔄 **BitUp 3 — Transações Bitcoin Core** | Satoshi | Bitcoin CLI e RPC + bitcoinjs-lib/python-bitcoinlib | [Acessar o curso](https://bitcoincoders.org/curso/transacoes-bitcoin-core) |[PDF](https://github.com/Bitcoin-Coders/bitcoin-coders/blob/main/Ecossistema/Transa%C3%A7%C3%B5es%20no%20Bitcoin%20Core%20e%20Signet.pdf)|
-| 🧠 **BitUp 4 — Scripts Bitcoin** | Satoshi → Core | Scripts, assinaturas e automação | [Acessar o curso](https://bitcoincoders.org/curso/scripts-bitcoin) |[PDF](https://github.com/Bitcoin-Coders/bitcoin-coders/blob/main/Ecossistema/Scripts_%20como%20o%20Bitcoin%20executa%20suas%20regras.pdf)|
+| 🪙 **BitUp 1 — Rodando Nós e Explorando as Redes do Bitcoin** | Iniciante | Bitcoin CLI e RPC | [Sem Vídeo] |[PDF](https://github.com/Bitcoin-Coders/bitcoin-coders/blob/main/Ecossistema/Bitup%20Coders%20-%2001.pdf)|
+| 🪙 **BitUp 2 — Carteiras Bitcoin Core** | Iniciante → Intermediário | Bitcoin CLI e RPC (Carteiras) | [Acessar o curso](https://bitcoincoders.org/curso/carteiras-bitcoin-core) |[PDF](https://github.com/Bitcoin-Coders/bitcoin-coders/blob/main/Ecossistema/Dominando%20as%20Carteiras%20no%20Bitcoin%20Core_%20Da%20Teoria%20%C3%A0%20Pr%C3%A1tica%20na%20Signet.pdf)|
+| 🔄 **BitUp 3 — Transações Bitcoin Core** | Intermediário | Bitcoin CLI e RPC (Transações) | [Acessar o curso](https://bitcoincoders.org/curso/transacoes-bitcoin-core) |[PDF](https://github.com/Bitcoin-Coders/bitcoin-coders/blob/main/Ecossistema/Transa%C3%A7%C3%B5es%20no%20Bitcoin%20Core%20e%20Signet.pdf)|
+| 🧠 **BitUp 4 — Scripts Bitcoin** | Intermediário | Bitcoin CLI e RPC (Scripts) | [Acessar o curso](https://bitcoincoders.org/curso/scripts-bitcoin) |[PDF](https://github.com/Bitcoin-Coders/bitcoin-coders/blob/main/Ecossistema/Scripts_%20como%20o%20Bitcoin%20executa%20suas%20regras.pdf)|
 
 ---
 
