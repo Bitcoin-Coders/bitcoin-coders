@@ -27,7 +27,7 @@ Este repositório é organizado em **Cursos** e **Programas**.
 
 ---
 
-## 📚 Cursos (./Cursos)
+## 📚 [Cursos](./Cursos)
 
 ### 🧩 Curso 1: Dominando as Carteiras no Bitcoin Core
 
