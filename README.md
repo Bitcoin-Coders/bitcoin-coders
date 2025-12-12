@@ -31,7 +31,7 @@ Este repositório é organizado em **Cursos** e **Programas**.
 
 ### 🧩 Curso 1: Dominando as Carteiras no Bitcoin Core
 
-**Descrição (resumo):**
+**Descrição:**
 Aprenda como o Bitcoin Core gerencia chaves, endereços e UTXOs na prática. Do `wallet.dat` às **Descriptor Wallets**, você entende como o node cria endereços, organiza fundos e expõe tudo via RPC e bitcoin-cli.
 
 **Tópicos centrais:**
@@ -45,7 +45,7 @@ Aprenda como o Bitcoin Core gerencia chaves, endereços e UTXOs na prática. Do 
 
 ### ⚡ Curso 2: Transações no Bitcoin Core e Signet
 
-**Descrição (resumo):**
+**Descrição:**
 Construa, analise e envie transações diretamente pelo bitcoin-cli, entendendo mempool, taxas e políticas do node. O curso usa **Signet** para experimentação realista, sem risco financeiro.
 
 **Tópicos centrais:**
@@ -60,7 +60,7 @@ Construa, analise e envie transações diretamente pelo bitcoin-cli, entendendo 
 
 ### 🧠 Curso 3: Scripts — Como o Bitcoin Executa Suas Regras
 
-**Descrição (resumo):**
+**Descrição:**
 Vá além dos endereços e entenda como o Bitcoin valida gastos usando **Bitcoin Script**. Você aprende como as regras são executadas na máquina de pilha e como scripts viram endereços na prática.
 
 **Tópicos centrais:**
@@ -75,7 +75,7 @@ Vá além dos endereços e entenda como o Bitcoin valida gastos usando **Bitcoin
 
 ### 🔐 Curso 4: Assinaturas Digitais no Bitcoin
 
-**Descrição (resumo):**
+**Descrição:**
 Entenda como o Bitcoin prova a autorização de um gasto. Do **ECDSA** ao **Schnorr**, você aprende como as assinaturas aparecem nas transações e como o protocolo evita maleabilidade.
 
 **Tópicos centrais:**
