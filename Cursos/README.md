@@ -1,6 +1,6 @@
 # 📚 Cursos — Bitcoin Coders
 
-> Conteúdo técnico e modular para dominar o Bitcoin **na prática**, operando nodes, explorando o Bitcoin Core e entendendo o protocolo em profundidade.
+> Conteúdo técnico e modular para dominar o Bitcoin **na prática**, operando nodes, explorando o Bitcoin Core e ferramentas do ecossistema e entendendo o protocolo em profundidade.
 
 ---
 
@@ -8,9 +8,9 @@
 
 Os **Cursos do Bitcoin Coders** são módulos técnicos **autocontidos**, focados em subsistemas reais do Bitcoin.
 
-Cada curso aprofunda um aspecto específico do protocolo ou do Bitcoin Core, sempre com:
+Cada curso aprofunda um aspecto específico de fundamentos de programação, do protocolo, do Bitcoin Core ou de ferramentas do ecossistema, sempre com:
 
-* uso intenso de **bitcoin-cli** e **RPC**
+* uso intenso de **bitcoin-cli**, **RPC**, **APIs** e **SDKs** 
 * experimentação em **regtest, signet e testnet**
 * foco em **como o Bitcoin funciona de verdade**, não apenas na teoria
 
