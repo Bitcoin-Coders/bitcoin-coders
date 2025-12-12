@@ -88,7 +88,7 @@ Entenda como o Bitcoin prova a autorização de um gasto. Do **ECDSA** ao **Schn
 
 ---
 
-## 🧪 Programas
+## 🧪 [Programas](./Programas)
 
 ### ⚙️ CoreCraft — Domine o Bitcoin Core na Prática
 
