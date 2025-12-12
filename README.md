@@ -22,8 +22,8 @@ Nosso lema resume a filosofia do projeto:
 
 Este repositório é organizado em **Cursos** e **Programas**.
 
-* **Cursos** → Conteúdo técnico contínuo e modular, focado em subsistemas específicos do Bitcoin.
-* **Programas** → Imersões práticas de curta duração, integrando múltiplos cursos em projetos reais.
+* **[Cursos](./Cursos)** → Conteúdo técnico contínuo e modular, focado em subsistemas específicos do Bitcoin.
+* **[Programas](./Programas)** → Imersões práticas de curta duração, integrando múltiplos cursos em projetos reais.
 
 ---
 
