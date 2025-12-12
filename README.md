@@ -1,6 +1,6 @@
 # 🧠 Bitcoin Coders
 
-> Aprenda, construa e contribua para o ecossistema Bitcoin — da base à comunidade.
+> Aprenda, construa e contribua para o ecossistema Bitcoin — da base ao código.
 
 ![Bitcoin Coders Logo](assets/logo.jpg)
 
@@ -8,129 +8,132 @@
 
 ## 🌍 Sobre
 
-O **Bitcoin Coders** é uma iniciativa educacional aberta dedicada à formação de desenvolvedores Bitcoin.  
-A trilha vai **dos fundamentos de programação até a contribuição no código do Bitcoin Core**, conectando **teoria, prática e comunidade**.
+O **Bitcoin Coders** é uma iniciativa educacional aberta dedicada à formação de desenvolvedores Bitcoin com **foco técnico, prático e profundo**.
 
-Nosso lema:  
-**“Build. Verify. Contribute.”**
+Aqui o aluno aprende **como o Bitcoin realmente funciona**, operando nodes, explorando o Bitcoin Core, entendendo transações, scripts, assinaturas e, por fim, construindo aplicações e contribuindo com o ecossistema open source.
 
----
+Nosso lema resume a filosofia do projeto:
 
-## 🧭 Estrutura Geral
-
-A jornada de aprendizado do **Bitcoin Coders** é dividida em **4 eixos de conhecimento**, cada um com **3 níveis de progressão**:  
-🥇 *Gênese (Iniciante)* · 🧱 *Satoshi (Builder)* · ⚙️ *Core (Avançado)*
-
-Cada eixo é composto por **Cursos** (conteúdo contínuo e modular) e **Programas** (imersões práticas de 3 semanas que integram os conteúdos do eixo).
+**Build. Verify. Contribute.**
 
 ---
 
-### 📚 Eixos de Conhecimento
+## 🧭 Organização do Repositório
 
-| Eixo | Descrição | Link |
-|------|------------|------|
-| 🧩 **Fundamentos de Programação para Desenvolvimento em Bitcoin** | Lógica, estruturas, redes, criptografia, encoding e algoritmos. | [Abrir → Fundamentos](./Fundamentos) |
-| ⚡ **Desenvolvimento para o Ecossistema Bitcoin** | SDKs, Lightning, wallets, APIs, integrações fiat, apps e UX dev. | [Abrir → Ecossistema](./Ecossistema) |
-| 🧠 **Bitcoin Core e Protocolos** | Internals, RPC, scripts, consenso, mineração, P2P, mempool. | [Abrir → Bitcoin-Core](./Bitcoin-Core) |
-| 🌍 **Comunidade e Contribuição** | BIPs, PRs, testes, versionamento, guidelines e cultura open source. | [Abrir → Comunidade](./Comunidade) |
+Este repositório é organizado em **Cursos** e **Programas**.
 
----
+* **Cursos** → Conteúdo técnico contínuo e modular, focado em subsistemas específicos do Bitcoin.
+* **Programas** → Imersões práticas de curta duração, integrando múltiplos cursos em projetos reais.
 
-> 🔗 Cada pasta contém seus próprios **Cursos** e **Programas**, organizados por nível:  
-> `Gênese → Satoshi → Core`
+Não há divisão por níveis ou trilhas rígidas. Cada curso é autocontido, mas pensado para se conectar aos demais.
 
 ---
 
-### 🧩 [Eixo 1. Fundamentos de Programação para Desenvolvimento em Bitcoin](./Fundamentos)
-> Lógica, estruturas, redes, criptografia, encoding e algoritmos.  
-> Este eixo forma a base técnica para toda a jornada no Bitcoin Coders.
+## 📚 Cursos
 
-🎯 **Objetivo:** Desenvolver a compreensão computacional e matemática necessária para pensar como um programador Bitcoin — aprendendo a representar, proteger e distribuir dados de forma segura e descentralizada.
+### 🧩 Curso 1: Dominando as Carteiras no Bitcoin Core
 
-📘 **Conteúdos principais:**
-- Representação e Transformações de Bases Numéricas  
-- Criptografia  
-- Estruturas de Dados e Algoritmos para Blockchain  
-- Redes P2P e Protocolos de Comunicação  
-- Programação Concorrente e Assíncrona  
-- Sistemas Distribuídos e Consenso  
+**Descrição (resumo):**
+Aprenda como o Bitcoin Core gerencia chaves, endereços e UTXOs na prática. Do `wallet.dat` às **Descriptor Wallets**, você entende como o node cria endereços, organiza fundos e expõe tudo via RPC e bitcoin-cli.
 
----
+**Tópicos centrais:**
 
-### ⚡ [Eixo 2. Desenvolvimento para o Ecossistema Bitcoin](./Ecossistema)
-> SDKs, Lightning, wallets, APIs, integrações fiat, apps e UX dev.
-
-🎯 **Objetivo:** Capacitar o aluno a construir soluções práticas que interagem com o ecossistema Bitcoin — desde carteiras e Lightning apps até integrações com o mundo fiat.
-
-📘 **Conteúdos principais:**
-- Bitcoin CLI e RPC  
-- bitcoinjs-lib, python-bitcoinlib e rust-bitcoin  
-- Lightning Network: canais, invoices, nodes e SDKs (LND, CLN, LDK, Breez)  
-- BDK (Bitcoin Development Kit) e integração com carteiras on-chain
-- BTCPay e Strike  
-- RGB, Fedimint e DID/Web5  
+* Wallets no Bitcoin Core
+* HD Wallets e descriptors
+* Tipos de endereços (Legacy, SegWit, Taproot)
+* Comandos como `getnewaddress`, `listunspent`, `listdescriptors`
 
 ---
 
-### 🧠 [Eixo 3. Bitcoin Core e Protocolos](./Bitcoin-Core)
-> Internals, RPC, scripts, consenso, mineração, P2P e mempool.
+### ⚡ Curso 2: Transações no Bitcoin Core e Signet
 
-🎯 **Objetivo:** Ensinar o funcionamento interno do Bitcoin Core, suas estruturas de dados e protocolos, preparando o aluno para compreender e contribuir diretamente no código do Bitcoin.
+**Descrição (resumo):**
+Construa, analise e envie transações diretamente pelo bitcoin-cli, entendendo mempool, taxas e políticas do node. O curso usa **Signet** para experimentação realista, sem risco financeiro.
 
-📘 **Conteúdos principais:**
-- Estrutura e compilação do Core  
-- Scripts Bitcoin, PSBT e descriptors  
-- Blocos, mempool e validação  
-- Consenso e mineração  
-- Testes funcionais e PRs no Core  
+**Tópicos centrais:**
 
----
-
-### 🌍 [Eixo 4. Comunidade e Contribuição](./Comunidade)
-> BIPs, PRs, testes, versionamento, guidelines e cultura open source.
-
-🎯 **Objetivo:** Desenvolver a maturidade técnica e colaborativa necessária para atuar como contribuidor ativo do ecossistema Bitcoin, participando de projetos, revisões e propostas de melhoria (BIPs).
-
-📘 **Conteúdos principais:**
-- Git e versionamento  
-- Boas práticas de PRs e revisão de código  
-- Processo e estrutura de BIPs  
-- Testes, documentação e guidelines  
-- Cultura de contribuição e mentoria 
+* Transações brutas
+* Fees, mempool e políticas
+* RBF e CPFP
+* PSBT, multisig e timelocks
+* Uso prático de Signet
 
 ---
 
-## 📂 Estrutura da Organização
+### 🧠 Curso 3: Scripts — Como o Bitcoin Executa Suas Regras
 
-- **Bitcoin-Coders**
-  - Fundamentos  
-  - Ecossistema  
-  - Bitcoin Core  
-  - Comunidade   
+**Descrição (resumo):**
+Vá além dos endereços e entenda como o Bitcoin valida gastos usando **Bitcoin Script**. Você aprende como as regras são executadas na máquina de pilha e como scripts viram endereços na prática.
 
-Cada pasta contém seus próprios **Cursos** e **Programas**.
+**Tópicos centrais:**
+
+* `scriptPubKey` vs `scriptSig`
+* Máquina de pilha e fluxo de execução
+* Opcodes essenciais (OP_CHECKSIG, OP_IF, OP_CHECKMULTISIG, OP_CLTV)
+* Scripts condicionais, multisig e timelocks
+* Uso de `decodescript` e bitcoin-cli
 
 ---
 
-## 🤝 Apoiado por
+### 🔐 Curso 4: Assinaturas Digitais no Bitcoin
 
-O **Bitcoin Coders** é uma iniciativa educacional aberta **apoiada pela [Area Bitcoin](https://areabitcoin.com.br)**.  
-Nosso propósito é fortalecer a formação técnica de desenvolvedores e impulsionar o ecossistema Bitcoin de forma transparente e acessível.
+**Descrição (resumo):**
+Entenda como o Bitcoin prova a autorização de um gasto. Do **ECDSA** ao **Schnorr**, você aprende como as assinaturas aparecem nas transações e como o protocolo evita maleabilidade.
+
+**Tópicos centrais:**
+
+* Assinaturas ECDSA (r, s)
+* DER, low-S e maleabilidade
+* SIGHASH e seus impactos
+* Assinaturas Schnorr e Taproot
+* Witness e indistinguibilidade de transações
+
+---
+
+## 🧪 Programas
+
+### ⚙️ CoreCraft — Domine o Bitcoin Core na Prática
+
+**Início:** em breve
+
+**Descrição:**
+Uma imersão prática para dominar o Bitcoin Core de ponta a ponta, da linha de comando à integração via RPC, culminando na construção de uma aplicação que interage diretamente com um node Bitcoin.
+
+**Formato:**
+
+* Duração: **3 semanas**
+* Teoria + projetos práticos
+* 100% online e gratuito
+* Aulas gravadas
+* Mentorias ao vivo
+* Hackathon final
+
+---
+
+> 🔜 Mais programas especializados estão em desenvolvimento.
+
+---
+
+## 🤝 Apoio
+
+O **Bitcoin Coders** é uma iniciativa educacional aberta **apoiada pela [Area Bitcoin](https://areabitcoin.com.br)**.
+
+O objetivo é fortalecer a formação técnica de desenvolvedores e contribuir para um ecossistema Bitcoin mais sólido, auditável e descentralizado.
 
 ---
 
 ## 💡 Filosofia
 
-> “Entender o Bitcoin é mais do que aprender sobre dinheiro —  
-> é compreender como o mundo pode se organizar sem permissões.”
+> “Entender o Bitcoin é mais do que aprender sobre dinheiro —
+> é compreender como sistemas podem funcionar sem permissões.”
 
 ---
 
 ## 📬 Contato
 
-🌐 [bitcoincoders.org](https://bitcoincoders.org)  
-✉️ hello@bitcoincoders.org  
-🇧🇷 Brasil  
+🌐 [https://bitcoincoders.org](https://bitcoincoders.org)
+✉️ [hello@bitcoincoders.org](mailto:hello@bitcoincoders.org)
+🇧🇷 Brasil
 
 ---
 
