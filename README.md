@@ -25,8 +25,6 @@ Este repositório é organizado em **Cursos** e **Programas**.
 * **Cursos** → Conteúdo técnico contínuo e modular, focado em subsistemas específicos do Bitcoin.
 * **Programas** → Imersões práticas de curta duração, integrando múltiplos cursos em projetos reais.
 
-Não há divisão por níveis ou trilhas rígidas. Cada curso é autocontido, mas pensado para se conectar aos demais.
-
 ---
 
 ## 📚 Cursos
