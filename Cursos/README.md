@@ -117,11 +117,5 @@ Cada curso possui sua própria pasta com:
 
 ---
 
-## 🧭 Filosofia dos Cursos
-
-> Aqui você não aprende apenas *o que* o Bitcoin faz,
-> mas *como* ele faz — e *por que* foi projetado assim.
-
----
 
 © 2025 Bitcoin Coders — cursos técnicos, código aberto.
