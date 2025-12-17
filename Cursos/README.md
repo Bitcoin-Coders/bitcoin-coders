@@ -40,7 +40,7 @@ Entenda como o Bitcoin Core gerencia fundos internamente, da criação de chaves
 
 ---
 
-## ⚡ Curso 2 — Transações no Bitcoin Core e Signet
+## ⚡ [Curso 2 — Transações no Bitcoin Core e Signet](https://bitcoincoders.org/curso/transacoes-bitcoin-core/)
 
 **Resumo:**
 Aprenda a criar, analisar e enviar transações manualmente, entendendo como taxas, mempool e políticas do node afetam cada confirmação. Todo o curso é feito em **Signet**, permitindo testes realistas sem risco financeiro.
