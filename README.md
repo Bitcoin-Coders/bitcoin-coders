@@ -73,7 +73,7 @@ Vá além dos endereços e entenda como o Bitcoin valida gastos usando **Bitcoin
 
 ---
 
-### 🔐 Curso 4: Assinaturas Digitais no Bitcoin
+### 🔐 [Curso 4: Assinaturas Digitais no Bitcoin](https://bitcoincoders.org/curso/assinaturas-digitais-no-bitcoin/)
 
 **Descrição:**
 Entenda como o Bitcoin prova a autorização de um gasto. Do **ECDSA** ao **Schnorr**, você aprende como as assinaturas aparecem nas transações e como o protocolo evita maleabilidade.
