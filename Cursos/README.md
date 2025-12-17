@@ -20,6 +20,8 @@ Os cursos podem ser feitos **independentemente**, mas foram pensados para se con
 
 ## 🧩 [Curso 1 — Dominando as Carteiras no Bitcoin Core](https://bitcoincoders.org/curso/carteiras-bitcoin-core/)
 
+[**Link para o curso: **](https://bitcoincoders.org/curso/carteiras-bitcoin-core/)
+
 **Resumo:**
 Entenda como o Bitcoin Core gerencia fundos internamente, da criação de chaves ao controle de UTXOs. O curso mostra como wallets realmente funcionam dentro do node, indo além de abstrações de aplicativos gráficos.
 
