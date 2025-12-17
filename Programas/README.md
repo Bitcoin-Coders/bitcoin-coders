@@ -44,6 +44,7 @@ Os programas seguem um formato padrão:
 ## ⚙️ [CoreCraft — Domine o Bitcoin Core na Prática](https://bitcoincoders.org/#programas)
 
 **Status:** em breve
+
 [**Link para se inscrever**](https://bitcoincoders.org/#programas)
 
 **Descrição:**
