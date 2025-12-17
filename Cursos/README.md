@@ -20,7 +20,7 @@ Os cursos podem ser feitos **independentemente**, mas foram pensados para se con
 
 ## 🧩 [Curso 1 — Dominando as Carteiras no Bitcoin Core](https://bitcoincoders.org/curso/carteiras-bitcoin-core/)
 
-[**Link para o curso: **](https://bitcoincoders.org/curso/carteiras-bitcoin-core/)
+[**Link para o curso**](https://bitcoincoders.org/curso/carteiras-bitcoin-core/)
 
 **Resumo:**
 Entenda como o Bitcoin Core gerencia fundos internamente, da criação de chaves ao controle de UTXOs. O curso mostra como wallets realmente funcionam dentro do node, indo além de abstrações de aplicativos gráficos.
@@ -43,6 +43,8 @@ Entenda como o Bitcoin Core gerencia fundos internamente, da criação de chaves
 ---
 
 ## ⚡ [Curso 2 — Transações no Bitcoin Core e Signet](https://bitcoincoders.org/curso/transacoes-bitcoin-core/)
+
+[**Link para o curso**](https://bitcoincoders.org/curso/transacoes-bitcoin-core/)
 
 **Resumo:**
 Aprenda a criar, analisar e enviar transações manualmente, entendendo como taxas, mempool e políticas do node afetam cada confirmação. Todo o curso é feito em **Signet**, permitindo testes realistas sem risco financeiro.
@@ -67,6 +69,8 @@ Aprenda a criar, analisar e enviar transações manualmente, entendendo como tax
 
 ## 🧠 [Curso 3 — Scripts: Como o Bitcoin Executa Suas Regras](https://bitcoincoders.org/curso/scripts-bitcoin/)
 
+[**Link para o curso**](https://bitcoincoders.org/curso/scripts-bitcoin/)
+
 **Resumo:**
 Descubra como o Bitcoin valida gastos usando **Bitcoin Script**. O curso explora a máquina de pilha, os opcodes e como scripts determinam quem pode gastar, quando e sob quais condições.
 
@@ -88,6 +92,8 @@ Descubra como o Bitcoin valida gastos usando **Bitcoin Script**. O curso explora
 ---
 
 ## 🔐 [Curso 4 — Assinaturas Digitais no Bitcoin](https://bitcoincoders.org/curso/assinaturas-digitais-no-bitcoin/)
+
+[**Link para o curso**](https://bitcoincoders.org/curso/assinaturas-digitais-no-bitcoin/)
 
 **Resumo:**
 Entenda como o Bitcoin prova a autorização de um gasto. Do ECDSA ao Schnorr, o curso mostra como assinaturas aparecem nas transações e como o protocolo evita maleabilidade.
