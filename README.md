@@ -43,7 +43,7 @@ Aprenda como o Bitcoin Core gerencia chaves, endereços e UTXOs na prática. Do 
 
 ---
 
-### ⚡ Curso 2: Transações no Bitcoin Core e Signet
+### ⚡ [Curso 2: Transações no Bitcoin Core e Signet](https://bitcoincoders.org/curso/transacoes-bitcoin-core/)
 
 **Descrição:**
 Construa, analise e envie transações diretamente pelo bitcoin-cli, entendendo mempool, taxas e políticas do node. O curso usa **Signet** para experimentação realista, sem risco financeiro.
@@ -58,7 +58,7 @@ Construa, analise e envie transações diretamente pelo bitcoin-cli, entendendo 
 
 ---
 
-### 🧠 Curso 3: Scripts — Como o Bitcoin Executa Suas Regras
+### 🧠 [Curso 3: Scripts — Como o Bitcoin Executa Suas Regras](https://bitcoincoders.org/curso/scripts-bitcoin/)
 
 **Descrição:**
 Vá além dos endereços e entenda como o Bitcoin valida gastos usando **Bitcoin Script**. Você aprende como as regras são executadas na máquina de pilha e como scripts viram endereços na prática.
