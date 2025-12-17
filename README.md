@@ -93,6 +93,7 @@ Entenda como o Bitcoin prova a autorização de um gasto. Do **ECDSA** ao **Schn
 ### ⚙️ [CoreCraft — Domine o Bitcoin Core na Prática](https://bitcoincoders.org/#programas)
 
 **Início:** em breve
+[**Link para se inscrever**](https://bitcoincoders.org/#programas)
 
 **Descrição:**
 Uma imersão prática para dominar o Bitcoin Core de ponta a ponta, da linha de comando à integração via RPC, culminando na construção de uma aplicação que interage diretamente com um node Bitcoin.
