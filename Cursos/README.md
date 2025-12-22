@@ -87,7 +87,7 @@ Descubra como o Bitcoin valida gastos usando **Bitcoin Script**. O curso explora
 
 * `decodescript`
 * `decoderawtransaction`
-* bitcoin-cli em regtest e signet
+* 'bitcoin-cli' em regtest e signet
 
 ---
 
@@ -130,13 +130,13 @@ Diferença entre regras de consenso e políticas locais
 
 **Comandos e ferramentas:**
 
-getblockhash
-getblock
-getblockheader
-getdifficulty
-getchaintips
-getblocktemplate
-bitcoin-cli em regtest e signet
+* 'getblockhash'
+* 'getblock'
+* 'getblockheader'
+* 'getdifficulty'
+* 'getchaintips'
+* 'getblocktemplate'
+* 'bitcoin-cli' em regtest e signet
 
 ---
 
