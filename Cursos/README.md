@@ -139,7 +139,7 @@ Diferença entre regras de consenso e políticas locais
 * `bitcoin-cli` em regtest e signet
 
 **Códigos Utilizados:**
-[miner_regtest.py](../assets/miner_regtest.py)
+[`miner_regtest.py`(../assets/miner_regtest.)
 
 ---
 
