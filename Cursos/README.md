@@ -130,7 +130,7 @@ Diferença entre regras de consenso e políticas locais
 
 **Comandos e ferramentas:**
 
-* 'getblockhash'
+* ´getblockhash´
 * 'getblock'
 * 'getblockheader'
 * 'getdifficulty'
