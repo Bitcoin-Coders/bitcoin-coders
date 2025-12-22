@@ -109,6 +109,37 @@ Entenda como o Bitcoin prova a autorização de um gasto. Do ECDSA ao Schnorr, o
 
 ---
 
+## ⛓️ Curso 5 — Núcleo do Bitcoin: Blocos, Mineração, Propagação e Validação
+Link para o curso
+
+**Resumo:**  
+Entenda como o Bitcoin realmente funciona a partir do ponto de vista do node.  
+Neste curso, você acompanha o ciclo completo de um bloco: como ele é montado, minerado, propagado na rede P2P e validado localmente. O foco está nas regras de consenso, no chainstate e nas políticas que definem o que um node aceita e retransmite, tudo explorado diretamente no Bitcoin Core.
+
+**O que você aprende:**
+
+Estrutura completa de um bloco Bitcoin
+Cabeçalho do bloco: hash, nonce, target e difficulty
+Como funciona a Proof of Work na prática
+Mineração de blocos em regtest
+Propagação de blocos e transações na rede P2P
+Processo de validação de blocos pelo node
+Chainstate, UTXO set e manutenção de estado
+Forks, reorgs e pontas da blockchain
+Diferença entre regras de consenso e políticas locais
+
+**Comandos e ferramentas:**
+
+getblockhash
+getblock
+getblockheader
+getdifficulty
+getchaintips
+getblocktemplate
+bitcoin-cli em regtest e signet
+
+---
+
 ## 🧱 Como Usar os Cursos
 
 Você pode:
