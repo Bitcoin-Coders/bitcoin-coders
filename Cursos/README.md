@@ -131,12 +131,12 @@ Diferença entre regras de consenso e políticas locais
 **Comandos e ferramentas:**
 
 * `getblockhash`
-* 'getblock'
-* 'getblockheader'
-* 'getdifficulty'
-* 'getchaintips'
-* 'getblocktemplate'
-* 'bitcoin-cli' em regtest e signet
+* `getblock`
+* `getblockheader`
+* `getdifficulty`
+* `getchaintips`
+* `getblocktemplate`
+* `bitcoin-cli` em regtest e signet
 
 ---
 
