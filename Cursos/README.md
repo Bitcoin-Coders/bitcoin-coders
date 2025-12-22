@@ -138,6 +138,9 @@ Diferença entre regras de consenso e políticas locais
 * `getblocktemplate`
 * `bitcoin-cli` em regtest e signet
 
+**Códigos Utilizados:**
+[miner_regtest.py](../assets/miner_regtest.py)
+
 ---
 
 ## 🧱 Como Usar os Cursos
