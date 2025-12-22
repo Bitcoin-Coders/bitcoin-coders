@@ -87,7 +87,7 @@ Descubra como o Bitcoin valida gastos usando **Bitcoin Script**. O curso explora
 
 * `decodescript`
 * `decoderawtransaction`
-* 'bitcoin-cli' em regtest e signet
+* `bitcoin-cli` em regtest e signet
 
 ---
 
