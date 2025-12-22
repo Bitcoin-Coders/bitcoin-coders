@@ -98,7 +98,7 @@ Neste curso, você mergulha no ciclo completo de vida de um bloco: da construç�
 
 - Estrutura completa de blocos (header, transações e coinbase)
 - Proof of Work, target, difficulty e ajuste de dificuldade
-- Mineração na prática (regtest e Signet)
+- Mineração na prática (regtest)
 - Propagação de blocos e transações na rede P2P
 - Validação de blocos, chainstate e UTXO set
 - Reorganizações de chain (reorgs) e forks
