@@ -43,7 +43,7 @@ Aprenda como o Bitcoin Core gerencia chaves, endereços e UTXOs na prática. Do 
 
 ---
 
-### ⚡ [Curso 2: Transações no Bitcoin Core e Signet](https://bitcoincoders.org/curso/transacoes-bitcoin-core/)
+### ⚡ [Curso 2: Transações no Bitcoin Core e Signet](https://github.com/Bitcoin-Coders/bitcoin-coders/blob/main/Cursos/README.md#-curso-2--transa%C3%A7%C3%B5es-no-bitcoin-core-e-signet)
 
 **Descrição:**
 Construa, analise e envie transações diretamente pelo bitcoin-cli, entendendo mempool, taxas e políticas do node. O curso usa **Signet** para experimentação realista, sem risco financeiro.
@@ -58,7 +58,7 @@ Construa, analise e envie transações diretamente pelo bitcoin-cli, entendendo 
 
 ---
 
-### 🧠 [Curso 3: Scripts — Como o Bitcoin Executa Suas Regras](https://bitcoincoders.org/curso/scripts-bitcoin/)
+### 🧠 [Curso 3: Scripts — Como o Bitcoin Executa Suas Regras](https://github.com/Bitcoin-Coders/bitcoin-coders/blob/main/Cursos/README.md#-curso-3--scripts-como-o-bitcoin-executa-suas-regras)
 
 **Descrição:**
 Vá além dos endereços e entenda como o Bitcoin valida gastos usando **Bitcoin Script**. Você aprende como as regras são executadas na máquina de pilha e como scripts viram endereços na prática.
@@ -73,7 +73,7 @@ Vá além dos endereços e entenda como o Bitcoin valida gastos usando **Bitcoin
 
 ---
 
-### 🔐 [Curso 4: Assinaturas Digitais no Bitcoin](https://bitcoincoders.org/curso/assinaturas-digitais-no-bitcoin/)
+### 🔐 [Curso 4: Assinaturas Digitais no Bitcoin](https://github.com/Bitcoin-Coders/bitcoin-coders/blob/main/Cursos/README.md#-curso-4--assinaturas-digitais-no-bitcoin)
 
 **Descrição:**
 Entenda como o Bitcoin prova a autorização de um gasto. Do **ECDSA** ao **Schnorr**, você aprende como as assinaturas aparecem nas transações e como o protocolo evita maleabilidade.
@@ -88,7 +88,7 @@ Entenda como o Bitcoin prova a autorização de um gasto. Do **ECDSA** ao **Schn
 
 ---
 
-### ⛓️ Curso 5: Núcleo do Bitcoin — Blocos, Mineração, Propagação e Validação
+### ⛓️ [Curso 5: Núcleo do Bitcoin — Blocos, Mineração, Propagação e Validação](https://github.com/Bitcoin-Coders/bitcoin-coders/blob/main/Cursos/README.md#%EF%B8%8F-curso-5--n%C3%BAcleo-do-bitcoin-blocos-minera%C3%A7%C3%A3o-propaga%C3%A7%C3%A3o-e-valida%C3%A7%C3%A3o)
 
 **Descrição:**  
 Entenda o funcionamento interno do Bitcoin a partir do ponto de vista do node.  
