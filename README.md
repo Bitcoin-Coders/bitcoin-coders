@@ -29,7 +29,7 @@ Este repositório é organizado em **Cursos** e **Programas**.
 
 ## 📚 [Cursos](./Cursos)
 
-### 🧩 [Curso 1: Dominando as Carteiras no Bitcoin Core](https://bitcoincoders.org/curso/carteiras-bitcoin-core/)
+### 🧩 [Curso 1: Dominando as Carteiras no Bitcoin Core](https://github.com/Bitcoin-Coders/bitcoin-coders/blob/main/Cursos/README.md#-curso-1--dominando-as-carteiras-no-bitcoin-core))
 
 **Descrição:**
 Aprenda como o Bitcoin Core gerencia chaves, endereços e UTXOs na prática. Do `wallet.dat` às **Descriptor Wallets**, você entende como o node cria endereços, organiza fundos e expõe tudo via RPC e bitcoin-cli.
