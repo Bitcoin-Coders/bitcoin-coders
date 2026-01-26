@@ -176,6 +176,7 @@ Neste Bitup, a gente percorre o fluxo completo: seleção econômica de transaç
 **Códigos Utilizados:**
 
 [miner_regtest2.py](../assets/miner_regtest2.py)
+
 [miner_multi.py](../assets/miner_multi.py)
 
 
