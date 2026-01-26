@@ -109,8 +109,8 @@ Entenda como o Bitcoin prova a autorização de um gasto. Do ECDSA ao Schnorr, o
 
 ---
 
-## ⛓️ Curso 5 — Núcleo do Bitcoin: Blocos, Mineração, Propagação e Validação
-Link para o curso
+## ⛓️ [Curso 5 — Núcleo do Bitcoin: Blocos, Mineração, Propagação e Validação](https://bitcoincoders.org/curso/nucleo-do-bitcoin/)
+[**Link para o curso**](https://bitcoincoders.org/curso/nucleo-do-bitcoin/)
 
 **Resumo:**  
 Entenda como o Bitcoin realmente funciona a partir do ponto de vista do node.  
