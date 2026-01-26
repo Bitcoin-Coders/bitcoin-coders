@@ -143,6 +143,43 @@ Diferença entre regras de consenso e políticas locais
 [miner_regtest.py](../assets/miner_regtest.py)
 
 ---
+## ⛓️ [Curso 6 — Bitup Coders - Mineração além do nonce: escolhas, incentivos e paralelismo](https://bitcoincoders.org/curso/)
+[**Link para o curso**](https://bitcoincoders.org/curso/)
+
+**Resumo:**  
+Mineração não é só “tentar nonces”. Antes de qualquer hash, um minerador precisa decidir quais transações entram no bloco, lidando com incentivos, taxas e dependências na mempool.
+Neste Bitup, a gente percorre o fluxo completo: seleção econômica de transações → montagem de um bloco candidato real (via getblocktemplate) → Proof of Work → experimento 1 núcleo vs múltiplos núcleos, fechando com a intuição de por que isso naturalmente empurra o ecossistema para especialização (ASIC).
+
+**O que você aprende:**
+
+* Como um minerador escolhe transações na mempool: taxas, feerate e pacotes (pai/filho)
+* Como obter um template real com getblocktemplate e transformar em bloco candidato
+* Como montar coinbase, merkle root e header antes do PoW
+* Como minerar “na mão” e submeter com submitblock, validando no getblockchaininfo
+* Por que mineração é paralelizável (1 core vs multi-core)
+* Por que isso leva a ASIC: força bruta paralela + função fixa + incentivo econômico
+
+**Comandos e ferramentas:**
+
+* `getnewaddress`
+* `sendtoaddress`
+* `createrawtransaction`
+* `fundrawtransaction`
+* `signrawtransactionwithwallet`
+* `sendrawtransaction`
+* `getrawmempool`
+* `getmempoolentry`
+* `submitblock`
+* `getblocktemplate`
+* `bitcoin-cli` em regtest
+
+**Códigos Utilizados:**
+
+[miner_regtest2.py](../assets/miner_regtest2.py)
+[miner_multi.py](../assets/miner_multi.py)
+
+
+---
 
 ## 🧱 Como Usar os Cursos
 
