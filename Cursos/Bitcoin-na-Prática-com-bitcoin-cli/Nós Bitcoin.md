@@ -2,10 +2,6 @@
 
 por Rafael Santos
 
-Atualizado em: 17/06/2025 ∙ 30 min leitura
-
-![Rede Bitcoin.png](N%C3%B3s%20Bitcoin/Rede_Bitcoin.png)
-
 Esse é o primeiro de uma série de artigos que começo a escrever sobre o Bitcoin, do ponto de vista técnico.  Um importante detalhe que precisamos lembrar é que o Bitcoin é um protocolo, ou seja, um conjunto de regras a serem seguidas. Essas regras são seguidas por diversos entes que se comunicam e formam uma rede.
 
 Cada um desses entes que faz parte dessa rede pode ser visto como um Nó. Em resumo, um Nó é um **software rodando em um dispositivo eletrônico** (computador, por exemplo), que tem como função principal **fazer cumprir as regras do protocolo Bitcoin**.
@@ -41,8 +37,6 @@ Podemos classificar os Nós em 3 tipos (embora outras classificações possam se
 - É um full node com software adicional de mineração.
 - Valida blocos e tenta encontrar um hash que satisfaça a dificuldade atual (prova de trabalho).
 - Propaga blocos encontrados para a rede.
-
-![ChatGPT Image 14 de jun. de 2025, 16_56_37.png](N%C3%B3s%20Bitcoin/ChatGPT_Image_14_de_jun._de_2025_16_56_37.png)
 
 # Instalação e configuração
 
@@ -114,8 +108,6 @@ bitcoind -datadir=/home/user/bitcoin-regtest-node1 -daemon
 bitcoin-cli -datadir=/home/user/bitcoin-regtest-node1 stop
 ```
 
-![ChatGPT Image 14 de jun. de 2025, 23_14_42.png](N%C3%B3s%20Bitcoin/ChatGPT_Image_14_de_jun._de_2025_23_14_42.png)
-
 # Rodando o                  bitcoind
 
 Vamos entender algumas configurações feitas no arquivo **bitcoin.conf**. Podemos configurar em qual rede o Nó irá atuar.
@@ -142,8 +134,6 @@ Além dessas configurações, existe uma seção para as configurações do **mo
 - **[regtest]**, indica que abaixo virão configurações que serão utilizadas somente quando o Nó estiver rodando em modo regtest.
 - **rpcport=18443**, define a porta que o bitcoind vai usar para aceitar conexões RPC.
 - **port=18444**, define a porta de rede peer-to-peer (porta que o bitcoind irá se conectar a outros nós, receber conexões de outros nós, repassar blocos e transações válidas).
-
-![ChatGPT Image 15 de jun. de 2025, 12_15_40.png](N%C3%B3s%20Bitcoin/ChatGPT_Image_15_de_jun._de_2025_12_15_40.png)
 
 **Uma vez que o bitcoind esteja rodando, o Nó:**
 
@@ -452,20 +442,9 @@ A transação agora deve ter "confirmations": 1 ou mais
 
 Neste artigo, vimos na prática como os Nós Bitcoin funcionam. Com exemplos em regtest, foi possível observar a propagação de blocos, a criação de transações e a sincronização entre Nós. Compreender esses mecanismos é fundamental para desenvolvedores que desejam se aprofundar no funcionamento interno do Bitcoin e contribuir diretamente com o ecossistema.
 
-![ChatGPT Image 17 de jun. de 2025, 18_43_50.png](N%C3%B3s%20Bitcoin/ChatGPT_Image_17_de_jun._de_2025_18_43_50.png)
-
 Em breve será publicada a Parte 2 deste artigo sobre Nós Bitcoin, abordando temas complementares que ficaram de fora desta primeira introdução prática. Esta próxima etapa trará uma abordagem mais profunda e voltada a desenvolvedores que desejam entender o funcionamento interno dos Nós do Bitcoin Core. Essa continuação visa aprofundar o entendimento de como um Nó Bitcoin opera por dentro, revelando os mecanismos que garantem sua segurança, conectividade e papel fundamental na rede.
 
 ---
-
-![IMG-20250722-WA0010.jpg](N%C3%B3s%20Bitcoin/7d12c3ef-1d0d-4c45-8cf9-96c904b1cb21.png)
-
 Escrito por:  
 
 Rafael Santos
-
-[A Maior Escola de Bitcoin do Mundo | Area Bitcoin](https://www.areabitcoin.com.br/)
-
-[Instagram (@area.bitcoin)](https://www.instagram.com/area.bitcoin/)
-
-[Area Bitcoin](https://www.youtube.com/c/AreaBitcoin)
