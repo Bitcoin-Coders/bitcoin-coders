@@ -179,6 +179,13 @@ Neste Bitup, a gente percorre o fluxo completo: seleção econômica de transaç
 
 [miner_multi.py](../assets/miner_multi.py)
 
+---
+## ⛓️ [Curso 7 — Bitcoin na Prática com bitcoin-cli](Bitcoin na Prática com bitcoin-cli)
+[**Link para o curso**](Bitcoin na Prática com bitcoin-cli)
+
+**Resumo:**  
+
+Série de artigos sobre diversos conceitos de Bitcoin, utilizando o bitcoin-cli.
 
 ---
 
