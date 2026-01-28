@@ -111,10 +111,10 @@ Você aprende que uma wallet não guarda bitcoins, mas **chaves**, **scripts** e
 
 ---
 
-## 🧾 Artigo 4 — Explorando os tipos de endereços no Bitcoin Core (Parte 1)  
+## [🧾 Artigo 4 — Explorando os tipos de endereços no Bitcoin Core (Parte 1)](./Explorando-os-tipos-de-endereços-Legacy.md)
 ### Legacy
 
-[**Link para o artigo**](./Nós-Bitcoin.md)
+[**Link para o artigo**](./Explorando-os-tipos-de-endereços-Legacy.md)
 
 **Resumo:**  
 Neste artigo, você começa a explorar os **tipos de endereços Bitcoin**, começando pelos endereços Legacy (P2PKH).  
