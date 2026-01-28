@@ -2,10 +2,6 @@
 
 por Rafael Santos
 
-Atualizado em: 08/08/2025 ∙ 30 min leitura
-
-# Como funciona uma carteira no Bitcoin Core: chaves, endereços e UTXOs
-
 No universo do Bitcoin, a carteira é o componente fundamental para a gestão de chaves e endereços, permitindo que o usuário envie, receba e controle seus bitcoins de forma segura. No Bitcoin Core, a carteira é um arquivo local que armazena suas chaves privadas e organiza seus saldos em UTXOs (saídas não gastas de transações), funcionando de forma diferente de carteiras online ou aplicativos que muitas pessoas estão acostumadas a usar. Neste artigo, vamos explorar de forma prática como funcionam as carteiras no Bitcoin Core, desde a criação de chaves e endereços até o gerenciamento dos UTXOs, utilizando comandos reais no terminal e scripts.
 
 No Bitcoin Core, a carteira é representada principalmente por um arquivo chamado **wallet.dat**, que fica armazenado na pasta de dados do Bitcoin Core (por padrão ~/.bitcoin/wallets/). Esse arquivo funciona como um cofre digital, guardando com segurança todas as suas chaves privadas e informações essenciais para controlar os seus bitcoins. Vale lembrar que o arquivo não armazena as moedas em si, e sim as chaves que dão acesso aos saldos registrados na blockchain.
