@@ -49,9 +49,8 @@ O foco está em criar o primeiro contato prático com o node e seus comandos bá
 **Você aprende:**
 
 * O que é um node Bitcoin e por que rodar um
-* Diferença entre `bitcoind` e `bitcoin-qt`
+* Diferença entre `bitcoind` e `bitcoin-cli`
 * Papel do `bitcoin-cli`
-* Estrutura básica de diretórios e arquivos
 * Primeiros comandos RPC
 
 **Comandos explorados:**
@@ -59,7 +58,6 @@ O foco está em criar o primeiro contato prático com o node e seus comandos bá
 * `bitcoin-cli help`
 * `getblockchaininfo`
 * `getnetworkinfo`
-* `getrpcinfo`
 
 ---
 
@@ -74,14 +72,12 @@ Aqui você explora as diferentes redes disponíveis no Bitcoin Core, entendendo 
 
 * Diferença entre Mainnet, Testnet, Signet e Regtest
 * Casos de uso de cada rede
-* Parâmetros de consenso vs ambiente de teste
 * Como iniciar o node em cada modo
 * Impacto das redes nos dados e estados do node
 
 **Comandos explorados:**
 
 * `getblockchaininfo`
-* `getchaintips`
 * flags de inicialização (`-testnet`, `-signet`, `-regtest`)
 
 ---
@@ -103,7 +99,6 @@ Você aprende que uma wallet não guarda bitcoins, mas **chaves**, **scripts** e
 
 **Comandos explorados:**
 
-* `getwalletinfo`
 * `getnewaddress`
 * `listunspent`
 * `getbalances`
@@ -128,7 +123,6 @@ O foco está em entender como endereços se relacionam com scripts e regras de v
 **Comandos explorados:**
 
 * `getnewaddress "label" legacy`
-* `decodescript`
 * `getaddressinfo`
 
 ---
@@ -143,17 +137,6 @@ Você pode usar este curso para:
 * construir intuição sobre o funcionamento do Bitcoin Core
 
 Cada artigo pode ser lido isoladamente, mas o **maior ganho vem da prática contínua**.
-
----
-
-## 🔗 Próximos Passos
-
-Após este curso, você estará pronto para avançar para:
-
-* Dominando as Carteiras no Bitcoin Core
-* Transações no Bitcoin Core
-* Scripts e validação
-* Mineração e funcionamento do node
 
 ---
 
