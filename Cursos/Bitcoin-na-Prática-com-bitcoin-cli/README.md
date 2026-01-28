@@ -42,6 +42,8 @@ Os artigos são independentes, mas juntos constroem uma base sólida para todo o
 ## [🖥️ Artigo 1 — Nó Bitcoin com Bitcoin Core](./Nós-Bitcoin.md)
 ### Instalação, `bitcoind` e `bitcoin-cli` (primeiros passos)
 
+[**Link para o artigo:**](./Nós-Bitcoin.md)
+
 **Resumo:**  
 Neste artigo, você aprende a instalar e rodar um node Bitcoin com o Bitcoin Core, entendendo a separação entre o daemon (`bitcoind`) e a interface de controle (`bitcoin-cli`).  
 O foco está em criar o primeiro contato prático com o node e seus comandos básicos.
