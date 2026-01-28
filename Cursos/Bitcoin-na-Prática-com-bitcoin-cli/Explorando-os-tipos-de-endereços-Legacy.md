@@ -2,8 +2,6 @@
 
 por Rafael Santos
 
-Atualizado em: 15/08/2025 ∙ 30 min leitura
-
 Entender sobre os diferentes tipos de endereços do Bitcoin exige conhecer um pouco da história da blockchain. Nesse artigo, irei apresentar uma parte mais teórica, para entender porque existem diferentes formatos de endereços e como eles funcionam. Posteriormente utilizaremos o `bitcoin-cli` do Bitcoin Core, `bash` e `python` para ver na prática exemplos e scripts funcionando na Signet.
 
 No Bitcoin, **endereços não surgem do nada,** eles são derivados de uma **chave pública**, que por sua vez é gerada a partir de uma **chave privada**, como vimos no artigo anterior. Esse encadeamento é o que garante que apenas quem possui a chave privada pode gastar os bitcoins enviados para um determinado endereço. 
@@ -321,14 +319,6 @@ No próximo artigo, vamos sair da teoria e mergulhar mais fundo nos **endereços
 
 ---
 
-![IMG-20250722-WA0010.jpg](Explorando%20os%20tipos%20de%20endere%C3%A7os%20no%20Bitcoin%20Core%20(/7d12c3ef-1d0d-4c45-8cf9-96c904b1cb21.png)
-
 Escrito por:  
 
 Rafael Santos
-
-[A Maior Escola de Bitcoin do Mundo | Area Bitcoin](https://www.areabitcoin.com.br/)
-
-[Instagram (@area.bitcoin)](https://www.instagram.com/area.bitcoin/)
-
-[Area Bitcoin](https://www.youtube.com/c/AreaBitcoin)
