@@ -63,10 +63,10 @@ O foco está em criar o primeiro contato prático com o node e seus comandos bá
 
 ---
 
-## 🌐 Artigo 2 — Mainnet, Testnet, Signet e Regtest  
+## [🌐 Artigo 2 — Mainnet, Testnet, Signet e Regtest](./Mainnet-Testnet-Signet-Regtest.md)
 ### O universo das redes Bitcoin
 
-[**Link para o artigo**](./Nós-Bitcoin.md)
+[**Link para o artigo**](./Mainnet-Testnet-Signet-Regtest.md)
 
 **Resumo:**  
 Bitcoin não é uma rede única.  
