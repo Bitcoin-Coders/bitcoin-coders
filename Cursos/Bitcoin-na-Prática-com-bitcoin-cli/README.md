@@ -86,10 +86,10 @@ Aqui você explora as diferentes redes disponíveis no Bitcoin Core, entendendo 
 
 ---
 
-## 🔑 Artigo 3 — Como funciona uma carteira no Bitcoin Core  
+## [🔑 Artigo 3 — Como funciona uma carteira no Bitcoin Core](./Como-funciona-uma-carteira-no-Bitcoin-Core.md)
 ### Chaves, endereços e UTXOs
 
-[**Link para o artigo**](./Nós-Bitcoin.md)
+[**Link para o artigo**](./Como-funciona-uma-carteira-no-Bitcoin-Core.md)
 
 **Resumo:**  
 Este artigo desmonta o conceito de “carteira” no Bitcoin Core.  
