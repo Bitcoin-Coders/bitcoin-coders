@@ -143,8 +143,8 @@ Diferença entre regras de consenso e políticas locais
 [miner_regtest.py](../assets/miner_regtest.py)
 
 ---
-## ⛓️ [Curso 6 — Mineração além do nonce: escolhas, incentivos e paralelismo](https://bitcoincoders.org/curso/)
-[**Link para o curso**](https://bitcoincoders.org/curso/)
+## ⛓️ [Curso 6 — Mineração além do nonce: escolhas, incentivos e paralelismo](https://bitcoincoders.org/curso/mineracao-alem-do-nonce/)
+[**Link para o curso**](https://bitcoincoders.org/curso/mineracao-alem-do-nonce/)
 
 **Resumo:**  
 Mineração não é só “tentar nonces”. Antes de qualquer hash, um minerador precisa decidir quais transações entram no bloco, lidando com incentivos, taxas e dependências na mempool.
