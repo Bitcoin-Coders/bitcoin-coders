@@ -6,8 +6,6 @@ Atualizado em: 22/08/2025 ∙ 30 min leitura
 
 Quando pensamos em como as carteiras são organizadas no Bitcoin Core, percebemos que houve uma grande evolução com o tempo. Nas primeiras versões, cada novo endereço era gerado de forma independente e armazenado diretamente no arquivo `wallet.dat`, sem nenhuma relação hierárquica entre eles. Isso significava que a carteira precisava guardar individualmente cada chave privada, o que dificultava backups e a recuperação em caso de perda.
 
-![ChatGPT Image 22 de ago. de 2025, 10_02_56.png](HD%20Wallets%20e%20Descriptor%20Wallets%20A%20Evolu%C3%A7%C3%A3o%20da%20Gera/ChatGPT_Image_22_de_ago._de_2025_10_02_56.png)
-
 Essa limitação foi superada com o surgimento das **Hierarchical Deterministic Wallets (HD Wallets)**, introduzidas pelo BIP32. Nesse modelo, em vez de gerar chaves privadas independentes, a carteira passa a gerar todas as chaves a partir de uma única chave-mestra derivada de uma seed aleatória. Essa organização hierárquica permite que, a partir de um único ponto de origem, seja possível derivar infinitos endereços de forma padronizada. Isso trouxe duas vantagens principais: os **backups se tornaram muito mais simples**, já que bastava guardar a seed ou a chave-mestra, e os **endereços passaram a ser organizados em árvores de derivação**, possibilitando separar contas, moedas e tipos de endereços.
 Complementando o conceito das HD Wallets introduzido pela BIP32, a BIP44 apresentou uma definição formal dos caminhos de derivação de endereços. A partir dela, passou a existir um padrão para gerar diferentes endereços de forma organizada a partir de uma única chave-mestra.
 **Formalmente**, o caminho de derivação dos endereços é descrito como:
@@ -126,7 +124,7 @@ O `h` no descritor é o correspondente ao **`'` (apóstrofo)** no caminho de der
 
 Para compreender melhor como os descritores funcionam na prática, é importante voltar um passo e entender **como as chaves são derivadas a partir da seed** que dá origem a uma carteira. A seguir, veremos o processo que conecta a seed inicial até as *extended keys* (xprv/xpub), passando pela chave-mestra, a chave pública correspondente e o fingerprint.
 
-![ChatGPT Image 22 de ago. de 2025, 09_04_46.png](HD%20Wallets%20e%20Descriptor%20Wallets%20A%20Evolu%C3%A7%C3%A3o%20da%20Gera/ChatGPT_Image_22_de_ago._de_2025_09_04_46.png)
+![./img1_art5_v3.jpg]
 
 Conforme a imagem mostra, o processo é o seguinte:
 
@@ -360,15 +358,3 @@ O Core apenas pegou o índice `0`do ramo externo `(/0/*)` desse descritor, aplic
 Em resumo, as HD Wallets trouxeram a base determinística para a geração estruturada de endereços, enquanto os descritores refinaram esse processo ao fornecer uma forma padronizada, explícita e auditável de organizar as carteiras no Bitcoin Core. Hoje, cada novo endereço gerado pelo comando `getnewaddress` carrega por trás de si toda essa lógica de seeds, chaves estendidas, fingerprints e descritores. Entender esse fluxo é fundamental para compreender não apenas como o Core administra os endereços, mas também como o Bitcoin evoluiu para oferecer carteiras mais seguras, interoperáveis e confiáveis.
 
 ---
-
-![IMG-20250722-WA0010.jpg](HD%20Wallets%20e%20Descriptor%20Wallets%20A%20Evolu%C3%A7%C3%A3o%20da%20Gera/7d12c3ef-1d0d-4c45-8cf9-96c904b1cb21.png)
-
-Escrito por:  
-
-Rafael Santos
-
-[A Maior Escola de Bitcoin do Mundo | Area Bitcoin](https://www.areabitcoin.com.br/)
-
-[Instagram (@area.bitcoin)](https://www.instagram.com/area.bitcoin/)
-
-[Area Bitcoin](https://www.youtube.com/c/AreaBitcoin)
