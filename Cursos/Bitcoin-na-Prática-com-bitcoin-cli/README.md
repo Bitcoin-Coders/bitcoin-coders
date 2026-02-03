@@ -135,6 +135,32 @@ O foco está em entender como endereços se relacionam com scripts e regras de v
 
 ---
 
+## [🧾 Artigo 5 — HD Wallets e Descriptor Wallets: A Evolução da Geração de Endereços das Carteiras do Bitcoin Core](./Explorando-os-tipos-de-endereços-Legacy.md)
+### Legacy
+
+[**Link para o artigo**](./Explorando-os-tipos-de-endereços-Legacy.md)
+
+**Resumo:**
+Neste artigo, você aprofunda sua compreensão sobre como o Bitcoin Core evoluiu na geração e gerenciamento de endereços. Você começa entendendo o conceito de HD Wallets (Hierarchical Deterministic Wallets), introduzido pelo Bitcoin Improvement Proposals através do BIP32, que permite derivar múltiplos endereços a partir de uma única seed. Em seguida, você explora as Descriptor Wallets, o modelo mais moderno do Bitcoin Core, que descreve explicitamente como scripts e chaves são estruturados.
+
+**Você aprende:**
+
+* O que são HD Wallets e por que elas substituíram carteiras não determinísticas
+* Como funciona a derivação hierárquica de chaves (BIP32)
+* O que são caminhos de derivação (ex: m/84'/0'/0'/0/0)
+* O que são Descriptor Wallets
+* Como descritores representam scripts como wpkh(), sh(), tr()
+
+**Comandos explorados:**
+
+* `createwallet`
+* `getdescriptorinfo`
+* `listdescriptors`
+* `getnewaddress`
+* `getwalletinfo`
+
+---
+
 ## 🧱 Como Usar Este Curso
 
 Você pode usar este curso para:
