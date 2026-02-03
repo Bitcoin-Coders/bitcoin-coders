@@ -2,8 +2,6 @@
 
 por Rafael Santos
 
-Atualizado em: 22/08/2025 ∙ 30 min leitura
-
 Quando pensamos em como as carteiras são organizadas no Bitcoin Core, percebemos que houve uma grande evolução com o tempo. Nas primeiras versões, cada novo endereço era gerado de forma independente e armazenado diretamente no arquivo `wallet.dat`, sem nenhuma relação hierárquica entre eles. Isso significava que a carteira precisava guardar individualmente cada chave privada, o que dificultava backups e a recuperação em caso de perda.
 
 Essa limitação foi superada com o surgimento das **Hierarchical Deterministic Wallets (HD Wallets)**, introduzidas pelo BIP32. Nesse modelo, em vez de gerar chaves privadas independentes, a carteira passa a gerar todas as chaves a partir de uma única chave-mestra derivada de uma seed aleatória. Essa organização hierárquica permite que, a partir de um único ponto de origem, seja possível derivar infinitos endereços de forma padronizada. Isso trouxe duas vantagens principais: os **backups se tornaram muito mais simples**, já que bastava guardar a seed ou a chave-mestra, e os **endereços passaram a ser organizados em árvores de derivação**, possibilitando separar contas, moedas e tipos de endereços.
