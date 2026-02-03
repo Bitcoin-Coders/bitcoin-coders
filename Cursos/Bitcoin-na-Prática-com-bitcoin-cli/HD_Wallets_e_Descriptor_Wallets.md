@@ -122,7 +122,7 @@ O `h` no descritor é o correspondente ao **`'` (apóstrofo)** no caminho de der
 
 Para compreender melhor como os descritores funcionam na prática, é importante voltar um passo e entender **como as chaves são derivadas a partir da seed** que dá origem a uma carteira. A seguir, veremos o processo que conecta a seed inicial até as *extended keys* (xprv/xpub), passando pela chave-mestra, a chave pública correspondente e o fingerprint.
 
-![./img1_art5_v3.jpg]
+![Processo](./img1_art5_v3.jpg)
 
 Conforme a imagem mostra, o processo é o seguinte:
 
