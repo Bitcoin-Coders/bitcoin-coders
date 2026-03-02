@@ -220,9 +220,9 @@ Neste artigo, você entende como uma transação Bitcoin é construída a partir
 * `generatetoaddress`
 ---
 
-## [🧾 Artigo 8 — Construindo Transações no Bitcoin Core](./Explorando_Transações_no_Bitcoin_Core.md)
+## [🧾 Artigo 8 — Construindo Transações no Bitcoin Core](./Construindo_Transações_no_Bitcoin_Core.md)
 
-[**Link para o artigo**](./Explorando_Transações_no_Bitcoin_Core.md)
+[**Link para o artigo**](./Construindo_Transações_no_Bitcoin_Core.md)
 
 **Resumo:**
 Este artigo leva a construção de transações no Bitcoin Core para o nível “mão na massa”. Partindo de um UTXO em regtest, você pratica cenários reais: transação simples com troco automático, envio do valor inteiro com taxa descontada no output, envio do valor inteiro com taxa definida manualmente, batching (múltiplos destinatários em uma transação) e consolidação de UTXOs (juntar vários outputs em um só).
