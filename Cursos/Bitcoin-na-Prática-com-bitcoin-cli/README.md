@@ -161,6 +161,35 @@ Neste artigo, você aprofunda sua compreensão sobre como o Bitcoin Core evoluiu
 
 ---
 
+## [🧾 Artigo 6 — SegWit: teoria e prática na Signet](./HD_Wallets_e_Descriptor_Wallets.md)
+
+[**Link para o artigo**](./HD_Wallets_e_Descriptor_Wallets.md)
+
+**Resumo:**
+
+Do Legacy ao SegWit, este artigo mostra por que o Bitcoin precisou separar assinaturas do identificador da transação (txid), resolvendo a maleabilidade e otimizando o uso do espaço em bloco. Em seguida, você vê o SegWit funcionando de ponta a ponta na Signet: geração de endereço Bech32, leitura do witness program e do scriptPubKey, decodificação de script e criação/assinatura/envio de uma transação P2WPKH, observando na prática scriptSig vazio, txinwitness preenchido e a diferença entre txid e wtxid.
+
+**Você aprende:**
+* O que era a maleabilidade de transações no formato Legacy e por que ela quebrava sistemas que dependiam do txid.
+* A diferença prática entre txid (sem witness) e wtxid (com witness) e como isso elimina a maleabilidade do identificador.
+* Por que o SegWit melhora a eficiência do bloco via peso (weight) e redução do custo do witness.
+* Como um endereço SegWit nativo (P2WPKH / Bech32) é formado: seed → derivação HD (BIP84) → pubkey → hash160(pubkey) → witness program → scriptPubKey → endereço tb1....
+* Como um gasto SegWit funciona: scriptSig vazio e prova no witness ([assinatura, pubkey]).
+* Um fluxo completo na Signet: criar carteira, gerar endereço, receber do faucet, montar transação crua, financiar, assinar e broadcastar, validando tudo via decoders e RPC.
+
+**Comandos explorados:**
+* `bitcoin-cli createwallet / loadwallet`
+* `bitcoin-cli getnewaddress (bech32)`
+* `bitcoin-cli getaddressinfo`
+* `bitcoin-cli decodescript`
+* `bitcoin-cli listunspent`
+* `bitcoin-cli createrawtransaction`
+* `bitcoin-cli fundrawtransaction`
+* `bitcoin-cli signrawtransactionwithwallet`
+* `bitcoin-cli sendrawtransaction`
+* `bitcoin-cli decoderawtransaction`
+
+---
 ## 🧱 Como Usar Este Curso
 
 Você pode usar este curso para:
