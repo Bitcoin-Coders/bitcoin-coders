@@ -191,9 +191,9 @@ Do Legacy ao SegWit, este artigo mostra por que o Bitcoin precisou separar assin
 
 ---
 
-## [🧾 Artigo 7 — Explorando Transações no Bitcoin Core](./SegWit_teoria_e_prática_na_Signet.md)
+## [🧾 Artigo 7 — Explorando Transações no Bitcoin Core](./Explorando_Transações_no_Bitcoin_Core.md)
 
-[**Link para o artigo**](./SegWit_teoria_e_prática_na_Signet.md)
+[**Link para o artigo**](./Explorando_Transações_no_Bitcoin_Core.md)
 
 **Resumo:**
 Neste artigo, você entende como uma transação Bitcoin é construída a partir do modelo UTXO, explorando seus componentes essenciais (inputs, outputs, scripts, locktime, taxas e vsize). Em seguida, você executa um laboratório completo em regtest no Bitcoin Core para simular um fluxo didático de UTXOs encadeados: uma transação divide um UTXO, outra divide um segundo UTXO e, por fim, uma terceira transação combina outputs anteriores em múltiplos inputs. Para fechar, o artigo compara três níveis de abstração no Core para criar transações: alto nível (sendtoaddress/sendmany), raw transactions totalmente manuais, e o fluxo semi-automático (criar → fundear → assinar → enviar).
