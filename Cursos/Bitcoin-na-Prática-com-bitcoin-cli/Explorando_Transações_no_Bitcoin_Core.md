@@ -36,7 +36,7 @@ Assim, o chamado **saldo** de uma pessoa em Bitcoin não existe de forma explíc
 
 A imagem abaixo mostra o fluxo das transações com seus componentes.
 
-![Transaçoes.png](Explorando%20Transa%C3%A7%C3%B5es%20no%20Bitcoin%20Core/Transaoes.png)
+![Transaçoes.png](../assets/Artigo07-Transacoes.webp)
 
 Na imagem, observamos a relação entre três transações encadeadas. A **Transação 1** consome um UTXO de 1 BTC e o divide em duas saídas: 0,4 BTC e 0,5 BTC, com uma taxa de 0,1 BTC. Já a **Transação 2** utiliza um UTXO de 0,5 BTC, gerando duas novas saídas de 0,3 BTC e 0,15 BTC, pagando 0,05 BTC de taxa. A **Transação 3** mostra o princípio da composição de UTXOs: ela reúne como entrada a saída de 0,5 BTC da Transação 1 e a saída de 0,3 BTC da Transação 2, totalizando 0,8 BTC de inputs. A partir disso, cria duas saídas de 0,6 BTC e 0,1 BTC, resultando em uma taxa de 0,1 BTC. Esse encadeamento ilustra claramente como os UTXOs fluem entre transações, sendo consumidos e recriados continuamente, mantendo a coerência do modelo do Bitcoin.
 
