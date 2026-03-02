@@ -470,10 +470,3 @@ Isso acontece porque o **txid não inclui o witness**, enquanto o **wtxid inclui
 ---
 
 Com esses passos, conseguimos enxergar como o SegWit funciona de ponta a ponta: desde a derivação da chave pública e a construção do `witness program`, passando pela codificação em endereço Bech32 e pelo `scriptPubKey`, até a validação prática de uma transação na rede Signet. O SegWit não apenas resolveu o problema da maleabilidade e aumentou a eficiência do espaço em bloco, como também **introduziu uma nova forma de estruturar assinaturas e chaves públicas**, movendo-as do `scriptSig` para o campo *witness*. Essa separação tornou as transações mais leves e robustas, e abriu caminho para inovações futuras como a Lightning Network e o Taproot.
-
----
-Escrito por:  
-
-Rafael Santos
-
-
