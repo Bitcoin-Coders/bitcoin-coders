@@ -178,16 +178,46 @@ Do Legacy ao SegWit, este artigo mostra por que o Bitcoin precisou separar assin
 * Um fluxo completo na Signet: criar carteira, gerar endereço, receber do faucet, montar transação crua, financiar, assinar e broadcastar, validando tudo via decoders e RPC.
 
 **Comandos explorados:**
-* `bitcoin-cli createwallet / loadwallet`
-* `bitcoin-cli getnewaddress (bech32)`
-* `bitcoin-cli getaddressinfo`
-* `bitcoin-cli decodescript`
-* `bitcoin-cli listunspent`
-* `bitcoin-cli createrawtransaction`
-* `bitcoin-cli fundrawtransaction`
-* `bitcoin-cli signrawtransactionwithwallet`
-* `bitcoin-cli sendrawtransaction`
-* `bitcoin-cli decoderawtransaction`
+* `createwallet / loadwallet`
+* `getnewaddress (bech32)`
+* `getaddressinfo`
+* `decodescript`
+* `listunspent`
+* `createrawtransaction`
+* `fundrawtransaction`
+* `signrawtransactionwithwallet`
+* `sendrawtransaction`
+* `decoderawtransaction`
+
+---
+
+## [🧾 Artigo 7 — Explorando Transações no Bitcoin Core](./SegWit_teoria_e_prática_na_Signet.md)
+
+[**Link para o artigo**](./SegWit_teoria_e_prática_na_Signet.md)
+
+**Resumo:**
+Neste artigo, você entende como uma transação Bitcoin é construída a partir do modelo UTXO, explorando seus componentes essenciais (inputs, outputs, scripts, locktime, taxas e vsize). Em seguida, você executa um laboratório completo em regtest no Bitcoin Core para simular um fluxo didático de UTXOs encadeados: uma transação divide um UTXO, outra divide um segundo UTXO e, por fim, uma terceira transação combina outputs anteriores em múltiplos inputs. Para fechar, o artigo compara três níveis de abstração no Core para criar transações: alto nível (sendtoaddress/sendmany), raw transactions totalmente manuais, e o fluxo semi-automático (criar → fundear → assinar → enviar).
+
+**Você aprende:**
+
+* O que é uma transação Bitcoin e quais são seus componentes principais (TXID, version, inputs, outputs, scripts, sequence, locktime, size/vsize e fee).
+* Por que outputs são o centro do modelo Bitcoin: UTXOs como “notas digitais” que são consumidas e recriadas continuamente.
+* Como o “saldo” de uma carteira é, na prática, a soma dos UTXOs que ela consegue gastar.
+* Como identificar tecnicamente um UTXO pelo par (txid, vout) e por seus atributos valor + scriptPubKey.
+* Como simular no regtest um cenário completo de fluxo de UTXOs com 3 transações.
+* As três formas de criar transações no Bitcoin Core, do mais simples ao mais controlado:
+  * automático (Core escolhe inputs, troco e taxa),
+  * manual (você define inputs/outputs e controla a taxa),
+  * semi-automático (você define outputs e o Core completa inputs/troco/taxa).
+
+**Comandos explorados:**
+
+* `createrawtransaction`
+* `signrawtransactionwithwallet`
+* `sendrawtransaction`
+* `decoderawtransaction`
+* `listunspent`
+* `generatetoaddress`
 
 ---
 ## 🧱 Como Usar Este Curso
