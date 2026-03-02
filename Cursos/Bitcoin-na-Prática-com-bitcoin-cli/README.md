@@ -161,9 +161,9 @@ Neste artigo, você aprofunda sua compreensão sobre como o Bitcoin Core evoluiu
 
 ---
 
-## [🧾 Artigo 6 — SegWit: teoria e prática na Signet](./HD_Wallets_e_Descriptor_Wallets.md)
+## [🧾 Artigo 6 — SegWit: teoria e prática na Signet](./SegWit_teoria_e_prática_na_Signet.md)
 
-[**Link para o artigo**](./HD_Wallets_e_Descriptor_Wallets.md)
+[**Link para o artigo**](./SegWit_teoria_e_prática_na_Signet.md)
 
 **Resumo:**
 
