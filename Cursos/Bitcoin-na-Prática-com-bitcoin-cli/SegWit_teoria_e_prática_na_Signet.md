@@ -2,8 +2,6 @@
 
 por Rafael Santos
 
-Atualizado em: 29/08/2025 ∙ 30 min leitura
-
 Os endereços **Legacy (P2PKH)** foram o primeiro formato amplamente utilizado no Bitcoin, representando um estágio fundamental para a usabilidade da rede. Contudo, com o crescimento do número de transações e a busca por maior escalabilidade, começaram a surgir limitações. Um dos principais problemas era a **maleabilidade das transações**, isto é, a possibilidade de alterar pequenos detalhes na assinatura sem modificar seu conteúdo, comprometendo sistemas que dependiam da identificação única de transações. É importante entender o que era esse problema de maleabilidade das transações.
 
 Antes da introdução do SegWit, a **assinatura digital** fazia parte dos dados usados para gerar o identificador da transação (**txid**). Como assinaturas ECDSA permitem múltiplas representações equivalentes, seja pelo uso de diferentes valores aleatórios (nonce) no ato da assinatura, seja por pequenas variações na forma de codificação, era possível criar versões diferentes da mesma transação. 
@@ -474,15 +472,8 @@ Isso acontece porque o **txid não inclui o witness**, enquanto o **wtxid inclui
 Com esses passos, conseguimos enxergar como o SegWit funciona de ponta a ponta: desde a derivação da chave pública e a construção do `witness program`, passando pela codificação em endereço Bech32 e pelo `scriptPubKey`, até a validação prática de uma transação na rede Signet. O SegWit não apenas resolveu o problema da maleabilidade e aumentou a eficiência do espaço em bloco, como também **introduziu uma nova forma de estruturar assinaturas e chaves públicas**, movendo-as do `scriptSig` para o campo *witness*. Essa separação tornou as transações mais leves e robustas, e abriu caminho para inovações futuras como a Lightning Network e o Taproot.
 
 ---
-
-![IMG-20250722-WA0010.jpg](SegWit%20teoria%20e%20pr%C3%A1tica%20na%20Signet/7d12c3ef-1d0d-4c45-8cf9-96c904b1cb21.png)
-
 Escrito por:  
 
 Rafael Santos
 
-[A Maior Escola de Bitcoin do Mundo | Area Bitcoin](https://www.areabitcoin.com.br/)
 
-[Instagram (@area.bitcoin)](https://www.instagram.com/area.bitcoin/)
-
-[Area Bitcoin](https://www.youtube.com/c/AreaBitcoin)
