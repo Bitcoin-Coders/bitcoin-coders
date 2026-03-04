@@ -99,8 +99,6 @@ Essa visão teórica e prática inicial é o ponto de partida para compreender o
 
 ## Estimando as taxas (`estimatesmartfee`)
 
-![ChatGPT Image 16_09_2025, 10_28_16.png](Taxas,%20Mempool%20e%20Estrat%C3%A9gias%20de%20Confirma%C3%A7%C3%A3o/ChatGPT_Image_16_09_2025_10_28_16.png)
-
 Antes de enviar uma transação, é fundamental escolher uma **taxa (fee)** adequada. Uma taxa muito baixa pode deixar a transação “presa” no mempool por horas ou dias; uma taxa muito alta significa gastar satoshis desnecessariamente. O Bitcoin Core ajuda a encontrar o equilíbrio por meio do comando **`estimatesmartfee`**.
 
 Algumas informações importantes:
@@ -146,8 +144,6 @@ Você verá que quanto **menor o número de blocos**, **maior a taxa** recomenda
 ---
 
 ## **Definindo a taxa de uma transação no Bitcoin Core**
-
-![ChatGPT Image 16_09_2025, 11_55_15.png](Taxas,%20Mempool%20e%20Estrat%C3%A9gias%20de%20Confirma%C3%A7%C3%A3o/ChatGPT_Image_16_09_2025_11_55_15.png)
 
 No Bitcoin, a taxa (*fee*) não é um campo explícito, ela é sempre a diferença entre o valor total das entradas (*inputs*) e das saídas (*outputs*). O Bitcoin Core permite três formas principais de determinar essa taxa.
 
@@ -326,8 +322,6 @@ Esse é o modo mais manual possível: você calcula a *feerate* com `estimatesma
 
 ## **RBF e CPFP na prática**
 
-![ChatGPT Image 16_09_2025, 15_24_52.png](Taxas,%20Mempool%20e%20Estrat%C3%A9gias%20de%20Confirma%C3%A7%C3%A3o/ChatGPT_Image_16_09_2025_15_24_52.png)
-
 Quando uma transação fica presa na mempool por ter uma taxa muito baixa, o Bitcoin Core oferece dois mecanismos diferentes para “destravar” a confirmação: **Replace-by-Fee (RBF)** e **Child-Pays-for-Parent (CPFP)**.
 
 **Replace-by-Fee (RBF)**
@@ -359,7 +353,7 @@ bitcoin-cli -datadir="." -named sendtoaddress address="tb1qmx7xn97urd2lmmthju57l
 
 Podemos ver na imagem abaixo a transação (com seu txid) esperando na mempool:
 
-![Captura de tela de 2025-09-17 10-39-56.png](Taxas,%20Mempool%20e%20Estrat%C3%A9gias%20de%20Confirma%C3%A7%C3%A3o/Captura_de_tela_de_2025-09-17_10-39-56.png)
+![Img2.png](../assets/Captura_de_tela_de_2025-09-17_10-39-56.png)
 
 Perceba que a taxa definida foi 170 sats.
 
@@ -381,11 +375,11 @@ bitcoin-cli -datadir="." bumpfee 860da2e3a9d4b1278432e053023151303f07661349c0a97
 
 O Core cria uma nova transação com *feerate* maior, assina e retransmite, substituindo a anterior no mempool. Observe que o comando retorna um novo txid com uma nova taxa (`0.00000876`). Veja que a mempool percebe que há uma transação substituta e avisa:
 
-![Captura de tela de 2025-09-17 10-40-54.png](Taxas,%20Mempool%20e%20Estrat%C3%A9gias%20de%20Confirma%C3%A7%C3%A3o/Captura_de_tela_de_2025-09-17_10-40-54.png)
+![Img3.png](../assets/Captura_de_tela_de_2025-09-17_10-40-54.png)
 
 E vemos então que essa nova transação entra na mempool aguardando para ser confirmada.
 
-![Captura de tela de 2025-09-17 10-41-12.png](Taxas,%20Mempool%20e%20Estrat%C3%A9gias%20de%20Confirma%C3%A7%C3%A3o/Captura_de_tela_de_2025-09-17_10-41-12.png)
+![Img4.png](../assets/Captura_de_tela_de_2025-09-17_10-41-12.png)
 
 **B. Child-Pays-for-Parent (CPFP)**
 1. **Criar uma transação para ter um UTXO não confirmado**
@@ -441,8 +435,6 @@ Agora, para que o minerador receba a taxa total mais alta, ele precisa confirmar
 ---
 
 Taxas e confirmação de transações são muito mais do que um detalhe operacional: são parte central do desenho de incentivos do Bitcoin.
-
-![ChatGPT Image 17_09_2025, 17_19_21.png](Taxas,%20Mempool%20e%20Estrat%C3%A9gias%20de%20Confirma%C3%A7%C3%A3o/ChatGPT_Image_17_09_2025_17_19_21.png)
 
 Neste artigo vimos que:
 
