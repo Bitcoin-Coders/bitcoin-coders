@@ -22,13 +22,13 @@ Nosso lema resume a filosofia do projeto:
 
 Este repositório é organizado em **Cursos** e **Programas**.
 
-* **[Artigos](./Artigos)** → Artigos técnicos, focado em subsistemas específicos do Bitcoin.
-* **[Cursos](./Cursos)** → Conteúdo técnico contínuo e modular, focado em subsistemas específicos do Bitcoin.
-* **[Programas](./Programas)** → Imersões práticas de curta duração, integrando múltiplos cursos em projetos reais.
+* **[Artigos](./artigos)** → Artigos técnicos, focado em subsistemas específicos do Bitcoin.
+* **[Cursos](./cursos)** → Conteúdo técnico contínuo e modular, focado em subsistemas específicos do Bitcoin.
+* **[Programas](./programas)** → Imersões práticas de curta duração, integrando múltiplos cursos em projetos reais.
 
 ---
 
-## 📚 [Cursos](./Cursos)
+## 📚 [Cursos](./cursos)
 
 ### 🧩 [Curso 1: Dominando as Carteiras no Bitcoin Core](https://github.com/Bitcoin-Coders/bitcoin-coders/blob/main/Cursos/README.md#-curso-1--dominando-as-carteiras-no-bitcoin-core)
 
@@ -108,7 +108,7 @@ Neste curso, você mergulha no ciclo completo de vida de um bloco: da construç�
 
 ---
 
-## 🧪 [Programas](./Programas)
+## 🧪 [Programas](./programas)
 
 ### ⚙️ [CoreCraft — Domine o Bitcoin Core na Prática](https://bitcoincoders.org/#programas)
 
