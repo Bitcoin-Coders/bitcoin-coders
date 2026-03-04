@@ -45,6 +45,8 @@ Introdução ao Bitcoin Core e ao funcionamento de um node Bitcoin. O artigo mos
 
 ## 🌐 Mainnet, Testnet, Signet e Regtest: o universo das redes Bitcoin
 
+[**Acesse o artigo aqui**](./artigo02-redes-bitcoin.md)
+
 **Resumo**
 
 Explora as diferentes redes do ecossistema Bitcoin e suas aplicações para desenvolvimento, testes e experimentação.
@@ -59,6 +61,8 @@ Explora as diferentes redes do ecossistema Bitcoin e suas aplicações para dese
 ---
 
 ## 💼 Como funciona uma carteira no Bitcoin Core: chaves, endereços e UTXOs
+
+[**Acesse o artigo aqui**](./artigo03-carteira-bitcoin.md)
 
 **Resumo**
 
@@ -75,6 +79,8 @@ Explora como o Bitcoin Core gerencia fundos internamente, mostrando como chaves,
 
 ## 🧾 Explorando os tipos de endereços no Bitcoin Core (Parte 1): Legacy
 
+[**Acesse o artigo aqui**](./artigo04-endereços-bitcoin.md)
+
 **Resumo**
 
 Analisa os primeiros formatos de endereços utilizados no Bitcoin e como eles aparecem na prática dentro do Bitcoin Core.
@@ -90,6 +96,8 @@ Analisa os primeiros formatos de endereços utilizados no Bitcoin e como eles ap
 
 ## 🔑 HD Wallets e Descriptor Wallets: a evolução da geração de endereços das carteiras do Bitcoin Core
 
+[**Acesse o artigo aqui**](./artigo05-HD-Wallets.md)
+
 **Resumo**
 
 Explora a evolução das carteiras no Bitcoin Core, da geração simples de chaves até o modelo moderno baseado em **descriptors**.
@@ -104,6 +112,8 @@ Explora a evolução das carteiras no Bitcoin Core, da geração simples de chav
 ---
 
 ## ⚡ SegWit: teoria e prática na Signet
+
+[**Acesse o artigo aqui**](./artigo06-segwit.md)
 
 **Resumo**
 
@@ -121,6 +131,8 @@ Introduz o SegWit e mostra como ele altera a estrutura das transações, além d
 
 ## 🔎 Explorando Transações no Bitcoin Core
 
+[**Acesse o artigo aqui**](./artigo07-explorando-transações.md)
+
 **Resumo**
 
 Analisa a estrutura de uma transação Bitcoin e como ela pode ser observada diretamente pelo node.
@@ -136,6 +148,8 @@ Analisa a estrutura de uma transação Bitcoin e como ela pode ser observada dir
 
 ## 🧪 Construindo Transações no Bitcoin Core
 
+[**Acesse o artigo aqui**](./artigo08-construindo-transações.md)
+
 **Resumo**
 
 Mostra como criar transações manualmente usando o Bitcoin Core, permitindo controle detalhado sobre inputs, outputs e taxas.
@@ -150,6 +164,8 @@ Mostra como criar transações manualmente usando o Bitcoin Core, permitindo con
 ---
 
 ## 💰 Taxas, Mempool e Estratégias de Confirmação
+
+[**Acesse o artigo aqui**](./artigo09-taxas-mempool.md)
 
 **Resumo**
 
