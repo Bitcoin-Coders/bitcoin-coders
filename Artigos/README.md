@@ -27,6 +27,7 @@ Uma série de artigos progressivos que exploram os fundamentos do Bitcoin utiliz
 
 ## 🧱 Nó Bitcoin com Bitcoin Core: instalação, bitcoind e bitcoin-cli (primeiros passos)
 
+**Acesse o artigo aqui**
 **Resumo**
 
 Introdução ao Bitcoin Core e ao funcionamento de um node Bitcoin. O artigo mostra como instalar o software, iniciar o daemon `bitcoind` e interagir com o node usando `bitcoin-cli`.
@@ -178,4 +179,4 @@ Os artigos incluem:
 
 ---
 
-© 2025 Bitcoin Coders — artigos técnicos open source sobre Bitcoin.
+© 2026 Bitcoin Coders — artigos técnicos open source sobre Bitcoin.
