@@ -19,7 +19,7 @@ O objetivo é permitir que desenvolvedores entendam o protocolo **operando um no
 
 ---
 
-# ⚙️ Série — Bitcoin na Prática com Bitcoin Core
+# ⚙️ Série — Bitcoin na Prática com Bitcoin-cli
 
 Uma série de artigos progressivos que exploram os fundamentos do Bitcoin utilizando diretamente o **Bitcoin-cli** e sua interface de linha de comando.
 
