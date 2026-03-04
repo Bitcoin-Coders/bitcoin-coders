@@ -449,17 +449,3 @@ Neste artigo vimos que:
 Com esses recursos em mãos, podemos ter total autonomia: ou deixamos o Core cuidar de tudo ou assumimos cada etapa, da estimativa de taxa à construção de transações que maximizem velocidade ou economia.
 
 Dominar essas estratégias é fundamental para quem deseja operar na rede Bitcoin de forma profissional e segura, seja em produção (mainnet) ou em ambientes de teste como a signet.
-
-  ****
-
-![IMG-20250722-WA0010.jpg](Taxas,%20Mempool%20e%20Estrat%C3%A9gias%20de%20Confirma%C3%A7%C3%A3o/7d12c3ef-1d0d-4c45-8cf9-96c904b1cb21.png)
-
-Escrito por:  
-
-Rafael Santos
-
-[A Maior Escola de Bitcoin do Mundo | Area Bitcoin](https://www.areabitcoin.com.br/)
-
-[Instagram (@area.bitcoin)](https://www.instagram.com/area.bitcoin/)
-
-[Area Bitcoin](https://www.youtube.com/c/AreaBitcoin)
