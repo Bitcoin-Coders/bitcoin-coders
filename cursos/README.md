@@ -180,12 +180,25 @@ Neste Bitup, a gente percorre o fluxo completo: seleção econômica de transaç
 [miner_multi.py](../assets/miner_multi.py)
 
 ---
-## ⛓️ [Curso 7 — Bitcoin na Prática com bitcoin-cli](./Bitcoin-na-Prática-com-bitcoin-cli/)
-[**Link para o curso**](./Bitcoin-na-Prática-com-bitcoin-cli/)
+## ⛓️ [Curso 7 — Bitcoin vs Computação Quântica: mito, risco e realidade](https://bitcoincoders.org/curso/bitcoin-vs-computacao-quantica/)
+[**Link para o curso**](https://bitcoincoders.org/curso/bitcoin-vs-computacao-quantica/)
 
 **Resumo:**  
 
-Série de artigos sobre diversos conceitos de Bitcoin, utilizando o bitcoin-cli.
+Computação quântica não é ficção científica, mas também não é um botão mágico que “quebra o Bitcoin” da noite para o dia. Neste Bitup você vai entender, de forma técnica e realista, o que os algoritmos quânticos realmente fazem, quais partes do Bitcoin poderiam ser afetadas, quais cenários de risco são plausíveis e como o protocolo já está se preparando com conservadorismo e engenharia responsável.
+
+**O que você aprende:**
+
+* O que é fatoração e logaritmo discreto e por que isso importa para o Bitcoin
+* Como funciona o algoritmo de Shor e por que ele ameaça ECDSA e Schnorr
+* Como funciona o algoritmo de Grover e qual seu impacto real sobre hashes e mineração
+* A diferença entre risco teórico e risco prático
+* Por que o mito de “quebrar tudo de uma vez” não reflete a realidade técnica
+* Como reutilização de endereço pode aumentar risco em cenários futuros
+* O que acontece na janela entre mempool e confirmação
+* Como a mineração se ajusta mesmo diante de vantagem tecnológica
+* O estado atual da engenharia no Bitcoin (BIP 360, commit-and-reveal, assinaturas pós-quânticas, híbridos e agregação)
+* Onde estamos hoje em hardware quântico (qubits físicos vs qubits lógicos) e o quão distante isso está de um ataque prático
 
 ---
 
@@ -197,7 +210,7 @@ Você pode:
 * combinar cursos conforme seu interesse
 * usar os cursos como base para os **Programas** (como o CoreCraft)
 
-Cada curso possui sua própria pasta com:
+Cada curso possui:
 
 * materiais teóricos
 * exemplos práticos
