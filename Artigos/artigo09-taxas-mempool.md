@@ -313,7 +313,7 @@ bitcoin-cli -datadir="." sendrawtransaction 02000000000101f4a7db681b4d10c53c00c7
 
 Após enviar podemos conferir na mempool “oficial” da signet e esperamos a confirmação da transação em bloco:
 
-![Captura de tela de 2025-09-16 14-55-30.png](Taxas,%20Mempool%20e%20Estrat%C3%A9gias%20de%20Confirma%C3%A7%C3%A3o/Captura_de_tela_de_2025-09-16_14-55-30.png)
+![Captura de tela de 2025-09-16 14-55-30.png](../assets/Captura_de_tela_de_2025-09-16_14-55-30.png)
 
 Perceba que nossa transação foi encontrada e já está em mempool fora de nossa node. Veja que já mostra a taxa de 179 sats.
 Esse é o modo mais manual possível: você calcula a *feerate* com `estimatesmartfee`, estima o tamanho da transação e escolhe as saídas de forma que a diferença corresponda à taxa desejada. O node valida e, se o mempool aceitar, a transação segue para os mineradores.
