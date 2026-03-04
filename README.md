@@ -20,7 +20,7 @@ Nosso lema resume a filosofia do projeto:
 
 ## 🧭 Organização do Repositório
 
-Este repositório é organizado em **Cursos** e **Programas**.
+Este repositório é organizado em **Artigos**, **Cursos** e **Programas**.
 
 * **[Artigos](./artigos)** → Artigos técnicos, focado em subsistemas específicos do Bitcoin.
 * **[Cursos](./cursos)** → Conteúdo técnico contínuo e modular, focado em subsistemas específicos do Bitcoin.
