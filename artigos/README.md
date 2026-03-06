@@ -182,7 +182,7 @@ Explora o papel das taxas no Bitcoin e como a mempool influencia o tempo de conf
 
 ## 🔐 Transferências Avançadas e Segurança
 
-[**Acesse o artigo aqui**](./artigo10-transferencias-avancadas.md)
+[**Acesse o artigo aqui**](./artigo10-transferências-avançadas.md)
 
 **Resumo**
 
