@@ -180,6 +180,24 @@ Explora o papel das taxas no Bitcoin e como a mempool influencia o tempo de conf
 
 ---
 
+## 🔐 Transferências Avançadas e Segurança
+
+[**Acesse o artigo aqui**](./artigo10-transferencias-avancadas.md)
+
+**Resumo**
+
+Explora mecanismos avançados de segurança e controle de gastos no Bitcoin. O artigo apresenta ferramentas que permitem construir transações mais seguras e flexíveis, incluindo **PSBT**, **multisig** e **timelocks**, mostrando como esses recursos são usados para coordenação entre múltiplos participantes, proteção de fundos e criação de políticas de gasto mais sofisticadas.
+
+**O que você aprende**
+
+- O que são **PSBTs (Partially Signed Bitcoin Transactions)** e quando utilizá-las
+- Como funciona o modelo **multisig** e suas aplicações em segurança
+- Diferença entre assinaturas parciais e finais em transações
+- Como funcionam **timelocks** (`CLTV` e `CSV`)
+- Como essas ferramentas permitem criar políticas de gasto mais seguras
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
