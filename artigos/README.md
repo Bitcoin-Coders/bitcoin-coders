@@ -198,6 +198,24 @@ Explora mecanismos avançados de segurança e controle de gastos no Bitcoin. O a
 
 ---
 
+## 🔐 Introdução a Scripts e Assinaturas
+
+[**Acesse o artigo aqui**](./artigo11-Introducao-a-Scripts-e-Assinaturas.md)
+
+**Resumo**
+
+Apresenta os fundamentos que permitem ao Bitcoin verificar quem está autorizado a gastar fundos. O artigo introduz o **Bitcoin Script**, explica o papel das **chaves públicas e privadas**, e mostra como as **assinaturas digitais** são usadas para provar a autorização de uma transação. Ao final, um exemplo prático com **bitcoin-cli** demonstra como esses elementos aparecem na validação real de uma transação.
+
+**O que você aprende**
+
+- O que é o **Bitcoin Script** e qual seu papel nas regras de gasto
+- Como funcionam **chaves privadas e chaves públicas** no Bitcoin
+- Como as **assinaturas digitais** provam a autorização de uma transação
+- Como o node valida uma transação utilizando scripts e assinaturas
+- Como observar esses elementos na prática usando **bitcoin-cli**
+
+---
+  
 # 🧭 Como Usar os Artigos
 
 Você pode:
