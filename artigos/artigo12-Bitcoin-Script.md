@@ -244,7 +244,7 @@ Os exemplos a seguir podem ser colados diretamente no editor e executados clican
 OP_2 OP_3 OP_ADD 5 OP_EQUAL
 ```
 
-![Artigo12-img2.webp](./assets/Artigo12-img2.webp)
+![Artigo12-img2.webp](../assets/Artigo12-img2.webp)
 
 **Execução passo a passo:**
 
@@ -268,7 +268,7 @@ Esse script demonstra como o Bitcoin Script executa operações determinísticas
 17 17 OP_OVER OP_EQUAL
 ```
 
-![Artigo12-img3.webp](./assets/Artigo12-img3.webp)
+![Artigo12-img3.webp](../assets/Artigo12-img3.webp)
 
 **Execução passo a passo:**
 
@@ -293,7 +293,7 @@ Esse tipo de operação é útil em scripts que precisam verificar igualdade mas
 022cb7fcfb1377e85e3c5ac300028890059ff84e9d8e1b6f35a808ebf3e477e7f1 OP_DUP OP_HASH160 AD28C4C54C4084A74E944B8E60916910FB9089B3 OP_EQUALVERIFY
 ```
 
-![Artigo12-img4.webp](./assets/Artigo12-img4.webp)
+![Artigo12-img4.webp](../assets/Artigo12-img4.webp)
 
 **Execução passo a passo:**
 
