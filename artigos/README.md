@@ -215,6 +215,24 @@ Apresenta os fundamentos que permitem ao Bitcoin verificar quem está autorizado
 - Como observar esses elementos na prática usando **bitcoin-cli**
 
 ---
+
+## ⚙️ Bitcoin Script: Máquina de Execução e Pilha
+
+[**Acesse o artigo aqui**](./artigo12-Bitcoin-Script.md)
+
+**Resumo**
+
+Explora como o Bitcoin realmente executa scripts durante a validação de uma transação. O artigo apresenta a **máquina de execução do Bitcoin Script**, explicando como a pilha é utilizada para processar dados e opcodes. A partir da anatomia da pilha principal e da pilha alternativa, você acompanha como as operações são avaliadas passo a passo e como diferentes instruções transformam o estado da execução. Ao final, exemplos em **simuladores de script** ajudam a visualizar o comportamento real dos scripts.
+
+**O que você aprende**
+
+- Como funciona a **máquina de execução do Bitcoin Script**
+- A estrutura da **pilha principal**
+- Como os **opcodes** manipulam dados e controlam o fluxo de execução
+- Como os scripts são avaliados durante a validação de transações
+- Como explorar e testar scripts usando **simuladores de Bitcoin Script**
+
+---
   
 # 🧭 Como Usar os Artigos
 
