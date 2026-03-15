@@ -200,7 +200,7 @@ Explora mecanismos avançados de segurança e controle de gastos no Bitcoin. O a
 
 ## 🔐 Introdução a Scripts e Assinaturas
 
-[**Acesse o artigo aqui**](./artigo11-Introducao-a-Scripts-e-Assinaturas.md)
+[**Acesse o artigo aqui**](./artigo11-Introdução-a-Scripts-e-Assinaturas.md)
 
 **Resumo**
 
