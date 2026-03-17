@@ -233,7 +233,26 @@ Explora como o Bitcoin realmente executa scripts durante a validação de uma tr
 - Como explorar e testar scripts usando **simuladores de Bitcoin Script**
 
 ---
-  
+
+## 🔐 Scripts Condicionais e Contratos Base
+
+[**Acesse o artigo aqui**](./artigoXX-scripts-condicionais-contratos.md)
+
+**Resumo**
+
+Explora como o Bitcoin permite construir regras de gasto mais sofisticadas utilizando **Bitcoin Script**. O artigo mostra como a pilha pode representar diferentes condições de validação, introduzindo estruturas como **multisig**, **timelocks** e fluxos condicionais. A partir disso, você entende como o Bitcoin implementa contratos básicos sem estado, incluindo exemplos como **scripts duais**, onde múltiplos caminhos de gasto são possíveis dependendo das condições atendidas.
+
+**O que você aprende**
+
+- Como a **pilha representa regras de gasto** no Bitcoin Script
+- Como funciona o **multisig** com `OP_CHECKMULTISIG`
+- O que são **timelocks** e como restringem o gasto no tempo
+- Uso de `OP_CHECKLOCKTIMEVERIFY (CLTV)` para bloqueio de transações
+- Estruturas condicionais com `OP_IF`, `OP_ELSE` e `OP_ENDIF`
+- Como construir **scripts duais** com múltiplos caminhos de validação
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
