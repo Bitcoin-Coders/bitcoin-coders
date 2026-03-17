@@ -236,7 +236,7 @@ Explora como o Bitcoin realmente executa scripts durante a validação de uma tr
 
 ## 🔐 Scripts Condicionais e Contratos Base
 
-[**Acesse o artigo aqui**](./artigoXX-scripts-condicionais-contratos.md)
+[**Acesse o artigo aqui**](./artigo13-Scripts-Condicionais-e-Contratos-Base.md)
 
 **Resumo**
 
