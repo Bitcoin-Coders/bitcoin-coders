@@ -253,6 +253,24 @@ Explora como o Bitcoin permite construir regras de gasto mais sofisticadas utili
 
 ---
 
+## 🔑 Como os Scripts se transformam em Endereços no Bitcoin
+
+[**Acesse o artigo aqui**](./artigo14-Como-os-Scripts-se-transformam-em-Endereços-no-Bitcoin.md)
+
+**Resumo**
+
+Explica como os endereços Bitcoin são derivados de scripts e representam, na prática, **condições de gasto**. O artigo percorre o caminho completo: da definição do “cadeado” (a regra de gasto), passando pela construção do `scriptPubKey`, até o processo de “envelopar” esse script em um endereço. Também mostra como decodificar um endereço para entender qual script ele representa, finalizando com um exemplo prático no **Bitcoin Core**.
+
+**O que você aprende**
+
+- Como definir a **condição de gasto** (o “cadeado”) de um script
+- Como o `scriptPubKey` representa essa condição em código
+- Como scripts são **convertidos em endereços** (Base58, Bech32)
+- Como **interpretar e decodificar** um endereço Bitcoin
+- Como observar todo esse processo na prática usando **bitcoin-cli**
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
