@@ -271,6 +271,24 @@ Explica como os endereços Bitcoin são derivados de scripts e representam, na p
 
 ---
 
+## 🔐 Assinaturas no Bitcoin: o elo entre posse e gasto
+
+[**Acesse o artigo aqui**](./artigo15-Assinaturas-no-Bitcoin.md)
+
+**Resumo**
+
+Explica como as assinaturas digitais conectam a posse de uma chave à autorização de gasto no Bitcoin. O artigo mostra onde a assinatura aparece dentro de uma transação, como ocorre o ciclo completo de validação e o que exatamente é assinado durante esse processo. Ao final, exemplos práticos com **bitcoin-cli** permitem observar essas estruturas diretamente no funcionamento real do node.
+
+**O que você aprende**
+
+- Onde a **assinatura digital aparece** na estrutura de uma transação
+- Como funciona o **ciclo de validação** no Bitcoin
+- O que é **efetivamente assinado** (SIGHASH e partes da transação)
+- Como o node verifica a autorização de gasto
+- Como explorar assinaturas na prática usando **bitcoin-cli**
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
