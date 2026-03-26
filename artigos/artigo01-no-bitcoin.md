@@ -1,4 +1,4 @@
-# Nós Bitcoin
+# Nó Bitcoin com Bitcoin Core: instalação, bitcoind e bitcoin-cli (primeiros passos)
 
 por Rafael Santos
 
