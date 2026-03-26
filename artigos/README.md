@@ -289,6 +289,24 @@ Explica como as assinaturas digitais conectam a posse de uma chave à autorizaç
 
 ---
 
+## 🔐 ECDSA no Bitcoin: anatomia da assinatura
+
+[**Acesse o artigo aqui**](./artigo16-ECDSA-no-Bitcoin.md)
+
+**Resumo**
+
+Explora em profundidade como funcionam as assinaturas digitais no Bitcoin a partir do algoritmo **ECDSA**. O artigo apresenta o propósito fundamental de uma assinatura, provar a posse de uma chave privada sem revelá-la, e explica como isso é possível usando criptografia de curva elíptica. A partir da curva **secp256k1**, você entende como o ECDSA gera e valida assinaturas, finalizando com um exemplo prático em **Python**.
+
+**O que você aprende**
+
+- O propósito de uma **assinatura digital** no Bitcoin
+- Como funciona a curva elíptica **secp256k1**
+- Como o algoritmo **ECDSA** gera e valida assinaturas
+- Como a posse da chave privada é provada sem revelá-la
+- Como implementar e observar assinaturas na prática com **Python**
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
