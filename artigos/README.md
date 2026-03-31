@@ -307,6 +307,26 @@ Explora em profundidade como funcionam as assinaturas digitais no Bitcoin a part
 
 ---
 
+## 🔐 O formato DER e o SIGHASH nas assinaturas Bitcoin
+
+[**Acesse o artigo aqui**](./artigo17-formato-DER-e-SIGHASH.md)
+
+**Resumo**
+
+Explora como o Bitcoin padroniza e valida assinaturas digitais através do **formato DER** e do mecanismo de **SIGHASH**. O artigo mostra por que o uso de DER é essencial para garantir consistência e segurança, detalha a estrutura interna das assinaturas e explica como o Bitcoin calcula o **hash (preimage)** que será efetivamente assinado. Também aborda regras de consenso como **low-S** e finaliza com a análise de um **scriptSig real**, desmontando cada componente da assinatura.
+
+**O que você aprende**
+
+- Por que o Bitcoin utiliza o **formato DER** para assinaturas
+- A **estrutura interna** de uma assinatura DER
+- Como o Bitcoin constrói o **hash (preimage)** que será assinado
+- O papel do **SIGHASH** na definição do que está sendo assinado
+- Regras de consenso como **assinaturas canônicas (low-S)**
+- Como analisar uma assinatura real a partir de um **scriptSig**
+
+---
+
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
