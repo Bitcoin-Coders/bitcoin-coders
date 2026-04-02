@@ -326,6 +326,26 @@ Explora como o Bitcoin padroniza e valida assinaturas digitais através do **for
 
 ---
 
+## 🔐 Schnorr e Taproot: a nova era das assinaturas
+
+[**Acesse o artigo aqui**](./artigo18-Schnorr-e-Taproot.md)
+
+**Resumo**
+
+Explora a evolução das assinaturas no Bitcoin com a introdução do **Schnorr** e do **Taproot**. O artigo mostra por que o ECDSA possuía limitações e como o Schnorr (BIP340) traz simplicidade, eficiência e novas possibilidades. A partir disso, você entende como o Taproot unifica saídas, incorpora **MAST** para scripts mais eficientes e introduz o **Tapscript (BIP342)** como base para o futuro do protocolo. Ao final, um exemplo prático na **Signet** mostra como um gasto Taproot aparece no Bitcoin real.
+
+**O que você aprende**
+
+- Por que o Bitcoin evoluiu além do **ECDSA**
+- O que muda com o **Schnorr (BIP340)**
+- Como o **Taproot** unifica saídas (Pay-to-Pubkey)
+- O papel do **MAST** (Merkle Abstract Syntax Tree)
+- Como são estruturados o **scriptPubKey** e o **witness** no Taproot
+- Como ocorre a **verificação de uma transação Taproot**
+- O que é o **Tapscript (BIP342)** e por que ele é mais flexível
+- Como um gasto Taproot aparece na prática (Signet)
+
+---
 
 # 🧭 Como Usar os Artigos
 
