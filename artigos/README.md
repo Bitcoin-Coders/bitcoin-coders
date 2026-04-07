@@ -347,6 +347,25 @@ Explora a evolução das assinaturas no Bitcoin com a introdução do **Schnorr*
 
 ---
 
+## ⛓️ Blocos Bitcoin
+
+[**Acesse o artigo aqui**](./artigo19-Blocos-Bitcoin.md)
+
+**Resumo**
+
+Apresenta a estrutura e o papel dos blocos no funcionamento do Bitcoin. O artigo explica o que é um bloco, como ele organiza transações e como é validado pelos nodes. A partir da análise do **header de 80 bytes**, você entende como funcionam elementos como **nonce, target e bits**, que sustentam a **Proof of Work**. Também mostra por que minerar é, na prática, encontrar um hash válido e como blocos são construídos antes de serem propagados pela rede, incluindo exemplos com **bitcoin-cli**.
+
+**O que você aprende**
+
+- O que é um **bloco Bitcoin** e qual seu papel na rede
+- Como explorar blocos usando **bitcoin-cli**
+- Estrutura completa do **block header (80 bytes)**
+- Como funcionam **nonce, target e bits**
+- Por que minerar é encontrar um **hash válido**
+- Como ocorre a **construção de blocos** pelos mineradores
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
