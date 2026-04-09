@@ -366,6 +366,26 @@ Apresenta a estrutura e o papel dos blocos no funcionamento do Bitcoin. O artigo
 
 ---
 
+## ⛏️ Mineração na prática: minerando blocos na regtest com bitcoin-cli
+
+[**Acesse o artigo aqui**](./artigo20-Mineração-na-prática.md)
+
+**Resumo**
+
+Mostra na prática como funciona o processo de mineração no Bitcoin utilizando o ambiente **regtest** e o **bitcoin-cli**. O artigo percorre todo o fluxo de construção de um bloco: desde a verificação do estado da blockchain, passando pela obtenção do template, montagem da **coinbase**, construção do header e execução da Proof of Work. Ao final, um minerador em **Python** demonstra como encontrar um hash válido e submeter o bloco com `submitblock`.
+
+**O que você aprende**
+
+- Como funciona a **mineração em regtest** com controle total do ambiente
+- Como verificar o estado atual da blockchain via **bitcoin-cli**
+- Como obter e interpretar o **getblocktemplate**
+- Como construir uma **transação coinbase**
+- Como montar o **header do bloco**
+- Como implementar um minerador simples em **Python**
+- Como enviar e validar um bloco com `submitblock`
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
