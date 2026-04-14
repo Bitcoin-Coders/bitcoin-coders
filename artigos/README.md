@@ -386,6 +386,27 @@ Mostra na prática como funciona o processo de mineração no Bitcoin utilizando
 
 ---
 
+## 🌐 P2P Bitcoin: como nodes conversam
+
+[**Acesse o artigo aqui**](./artigo21-P2P-Bitcoin.md)
+
+**Resumo**
+
+Explora como os nodes Bitcoin se comunicam diretamente na rede **P2P**, sem intermediários. O artigo mostra que cada node atua simultaneamente como cliente, servidor, validador e retransmissor, e explica por que o **RPC não faz parte da rede Bitcoin**. A partir das mensagens do protocolo (`version`, `inv`, `tx`, `block`, etc.), você entende como dados são anunciados, solicitados e propagados em um grafo dinâmico de conexões. Também são apresentados exemplos práticos de conexão entre nodes e observação do tráfego real com ferramentas como **tcpdump**.
+
+**O que você aprende**
+
+- Os diferentes papéis de um **node Bitcoin** na rede
+- Por que o **RPC não faz parte da rede P2P**
+- Quais são as principais **mensagens do protocolo Bitcoin**
+- Como funciona a **topologia dinâmica da rede**
+- Por que a propagação ocorre por **anúncio (inv) e não envio direto**
+- Como o modelo de **confiança zero** exige validação completa
+- Como estabelecer **conexões P2P entre nodes**
+- Como observar o tráfego real da rede com **tcpdump**
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
