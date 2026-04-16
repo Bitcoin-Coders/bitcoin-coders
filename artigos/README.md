@@ -407,6 +407,27 @@ Explora como os nodes Bitcoin se comunicam diretamente na rede **P2P**, sem inte
 
 ---
 
+## ⚖️ Chainstate, validação e políticas
+
+[**Acesse o artigo aqui**](artigo22-Chainstate-validação-e-políticas.md)
+
+**Resumo**
+
+Explora como o Bitcoin Core mantém o estado da blockchain e toma decisões sobre o que aceitar ou rejeitar. O artigo apresenta o **chainstate** como o estado vivo do sistema, explica como a **validação incremental** ocorre à medida que novos blocos e transações chegam e mostra como forks e reorgs são tratados. Também destaca o papel da **mempool** e da **policy layer**, evidenciando que nem toda transação válida pelo consenso é necessariamente aceita pelo node. Ao final, um experimento prático demonstra esse comportamento na prática.
+
+**O que você aprende**
+
+- O que é o **chainstate** e como ele representa o estado atual do Bitcoin
+- Como funciona a **validação incremental** de blocos e transações
+- Como verificar a **saúde da blockchain** com bitcoin-cli
+- O que são **forks, reorgs e pontas da chain**
+- O papel da **mempool** no fluxo das transações
+- Diferença entre **regras de consenso e políticas locais (policy)**
+- Por que uma transação válida pode ser **rejeitada pelo node**
+- Como observar esse comportamento em um **experimento prático**
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
