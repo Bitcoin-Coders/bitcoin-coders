@@ -18,6 +18,30 @@ Os cursos podem ser feitos **independentemente**, mas foram pensados para se con
 
 ---
 
+## 🧩 [Curso 0 — Bitcoin na Prática com bitcoin-cli](https://bitcoincoders.org/curso/bitcoin-cli/)
+
+[**Link para o curso**](https://bitcoincoders.org/curso/bitcoin-cli/)
+
+**Resumo:**
+Domine o funcionamento interno do Bitcoin explorando seus principais subsistemas diretamente no Bitcoin Core usando o bitcoin-cli.
+
+**O que você aprende:**
+
+* Como instalar, configurar e operar um node Bitcoin com Bitcoin Core
+* Diferença entre mainnet, testnet, signet e regtest e quando usar cada uma
+* Como funcionam carteiras, chaves, endereços e o modelo UTXO
+* Tipos de endereços (Legacy, SegWit e Taproot) e suas diferenças práticas
+* Como explorar, criar, assinar e transmitir transações manualmente
+* Funcionamento de taxas, mempool e estratégias de confirmação (RBF, CPFP)
+* Uso de PSBT, multisig e timelocks para segurança avançada
+* Fundamentos de Bitcoin Script e validação de transações
+* Como funcionam assinaturas digitais (ECDSA e Schnorr)
+* Estrutura de blocos e processo de mineração na prática
+* Comunicação P2P entre nodes e propagação de dados
+* Validação, chainstate, políticas e comportamento real do node
+
+---
+
 ## 🧩 [Curso 1 — Dominando as Carteiras no Bitcoin Core](https://bitcoincoders.org/curso/carteiras-bitcoin-core/)
 
 [**Link para o curso**](https://bitcoincoders.org/curso/carteiras-bitcoin-core/)
