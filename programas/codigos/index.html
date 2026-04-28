@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CoreCraft — Painel RPC</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div>
+        <h1>CoreCraft <span>Painel RPC</span></h1>
+        <p>Painel local: <strong>RPC → Backend Python → Frontend</strong> (sem ZMQ)</p>
+      </div>
+      <div class="actions">
+        <button id="btnRefresh" class="btn primary">Atualizar estado</button>
+      </div>
+    </header>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Estado do node</h2>
+        <div id="nodeState" class="kv"></div>
+        <div id="nodeError" class="error hidden"></div>
+      </div>
+
+      <div class="card">
+        <h2>Mempool</h2>
+        <div id="mempoolState" class="kv"></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="row">
+        <h2>Blocos recentes</h2>
+        <div class="row-right">
+          <label>
+            N:
+            <select id="recentN">
+              <option>5</option>
+              <option selected>10</option>
+              <option>15</option>
+              <option>25</option>
+            </select>
+          </label>
+          <button id="btnRecent" class="btn">Carregar</button>
+        </div>
+      </div>
+
+      <div id="recentInfo" class="muted"></div>
+      <div class="table-wrap">
+        <table id="recentTable">
+          <thead>
+            <tr>
+              <th>Height</th>
+              <th>Txs</th>
+              <th>Avg fee rate</th>
+              <th>Total fee</th>
+              <th>Time</th>
+              <th>Hash</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div id="recentError" class="error hidden"></div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Consultar bloco</h2>
+        <p class="muted">Digite um hash de bloco e veja um resumo.</p>
+        <div class="form">
+          <input id="blockHashInput" placeholder="blockhash..." />
+          <button id="btnBlock" class="btn">Consultar</button>
+        </div>
+        <pre id="blockResult" class="pre"></pre>
+        <div id="blockError" class="error hidden"></div>
+      </div>
+
+      <div class="card">
+        <h2>Consultar transação</h2>
+        <p class="muted">
+          <strong>Observação realista:</strong> isso pode falhar sem <code>txindex=1</code> (ou se não estiver na mempool/wallet).
+        </p>
+        <div class="form">
+          <input id="txidInput" placeholder="txid..." />
+          <button id="btnTx" class="btn">Consultar</button>
+        </div>
+        <pre id="txResult" class="pre"></pre>
+        <div id="txError" class="error hidden"></div>
+      </div>
+    </section>
+
+    <footer class="footer muted">
+      Aula 1 — RPC como fotografia do estado
+    </footer>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
+
