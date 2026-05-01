@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Core Craft — TX Monitor</title>
+  <style>
+    :root{
+      --bg:#0b1020;
+      --panel:#111a33;
+      --panel2:#0f1730;
+      --text:#e9eefc;
+      --muted:#a8b3d6;
+      --line:rgba(255,255,255,.08);
+      --shadow: 0 14px 40px rgba(0,0,0,.45);
+      --radius:16px;
+
+      --ok:#2be4a7;
+      --warn:#ffcc66;
+      --bad:#ff5c7a;
+      --brand:#ff9f1a;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--text);
+      background:
+        radial-gradient(1200px 700px at 20% -10%, rgba(255,159,26,.25), transparent 55%),
+        radial-gradient(1000px 600px at 90% 10%, rgba(43,228,167,.18), transparent 50%),
+        linear-gradient(180deg, #070a14 0%, #0b1020 60%, #070a14 100%);
+    }
+
+    .wrap{max-width:1050px; margin:0 auto; padding:28px 18px 60px}
+    header{
+      display:flex; align-items:flex-end; justify-content:space-between; gap:16px;
+      margin-bottom:18px;
+    }
+    .brand{display:flex; align-items:center; gap:12px;}
+    .logo{
+      width:44px; height:44px; border-radius:12px;
+      background:
+        radial-gradient(circle at 30% 30%, rgba(255,255,255,.25), transparent 40%),
+        linear-gradient(135deg, rgba(255,159,26,.95), rgba(255,85,0,.85));
+      box-shadow: 0 12px 30px rgba(255,159,26,.18);
+      position:relative;
+    }
+    .logo:after{
+      content:"₿";
+      position:absolute; inset:0;
+      display:grid; place-items:center;
+      font-weight:800; font-size:22px;
+      color:rgba(12,16,32,.85);
+      text-shadow: 0 1px 0 rgba(255,255,255,.15);
+    }
+    h1{margin:0; font-size:20px; letter-spacing:.2px}
+    .subtitle{margin-top:2px; color:var(--muted); font-size:13px}
+
+    .pill{
+      display:inline-flex; align-items:center; gap:8px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.03);
+      padding:10px 12px;
+      border-radius:999px;
+      color:var(--muted);
+      font-size:13px;
+      white-space:nowrap;
+    }
+    .dot{
+      width:9px; height:9px; border-radius:50%;
+      background:var(--warn);
+      box-shadow: 0 0 0 4px rgba(255,204,102,.12);
+    }
+
+    .grid{display:grid; grid-template-columns: 1fr; gap:16px;}
+
+    .card{
+      background: linear-gradient(180deg, rgba(17,26,51,.92), rgba(15,23,48,.9));
+      border:1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .cardHeader{
+      padding:16px 18px;
+      border-bottom:1px solid var(--line);
+      display:flex; align-items:center; justify-content:space-between; gap:12px;
+      background: rgba(255,255,255,.02);
+    }
+    .cardHeader h2{
+      margin:0;
+      font-size:14px;
+      letter-spacing:.3px;
+      color:#dfe7ff;
+      display:flex; align-items:center; gap:10px;
+    }
+    .tag{
+      font-size:12px;
+      color:var(--muted);
+      border:1px solid var(--line);
+      border-radius:999px;
+      padding:6px 10px;
+      background: rgba(255,255,255,.03);
+    }
+
+    .cardBody{padding:16px 18px}
+
+    .formRow{
+      display:grid;
+      grid-template-columns: 1.2fr .6fr auto;
+      gap:10px;
+    }
+    @media (max-width:820px){
+      .formRow{grid-template-columns: 1fr; }
+      .pill{display:none}
+    }
+
+    label{display:block; font-size:12px; color:var(--muted); margin:0 0 6px}
+    input{
+      width:100%;
+      padding:12px 12px;
+      border-radius:12px;
+      border:1px solid var(--line);
+      background: rgba(0,0,0,.22);
+      color:var(--text);
+      outline:none;
+    }
+    input::placeholder{color:rgba(168,179,214,.55)}
+    input:focus{border-color: rgba(255,159,26,.5); box-shadow: 0 0 0 4px rgba(255,159,26,.10);}
+
+    button{
+      height:44px;
+      padding:0 14px;
+      border-radius:12px;
+      border:1px solid rgba(255,159,26,.35);
+      background: linear-gradient(135deg, rgba(255,159,26,.95), rgba(255,85,0,.85));
+      color:#10142a;
+      font-weight:700;
+      cursor:pointer;
+      box-shadow: 0 14px 30px rgba(255,159,26,.14);
+    }
+    button:disabled{opacity:.55; cursor:not-allowed; filter: grayscale(.4);}
+
+    .hint{
+      margin-top:10px;
+      font-size:12px;
+      color:var(--muted);
+      display:flex; gap:12px; flex-wrap:wrap;
+    }
+    .hint code{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      background: rgba(255,255,255,.06);
+      border:1px solid var(--line);
+      padding:2px 6px;
+      border-radius:8px;
+      color:#dfe7ff;
+    }
+
+    .toast{
+      margin-top:12px;
+      padding:12px 12px;
+      border-radius:14px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      display:flex; align-items:flex-start; justify-content:space-between; gap:10px;
+    }
+    .toast strong{display:block; font-size:13px}
+    .toast small{display:block; color:var(--muted); margin-top:3px; font-size:12px}
+    .toast .right{display:flex; align-items:center; gap:10px}
+    .badge{
+      font-size:12px; font-weight:700;
+      padding:7px 10px;
+      border-radius:999px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.04);
+      color: var(--muted);
+      display:inline-flex; align-items:center; gap:8px;
+    }
+    .badge .bDot{width:8px; height:8px; border-radius:50%}
+    .b-broadcast .bDot{background:var(--warn); box-shadow:0 0 0 4px rgba(255,204,102,.12)}
+    .b-mempool   .bDot{background:var(--ok);   box-shadow:0 0 0 4px rgba(43,228,167,.12)}
+    .b-confirmed .bDot{background:var(--ok);   box-shadow:0 0 0 4px rgba(43,228,167,.12)}
+    .b-error     .bDot{background:var(--bad);  box-shadow:0 0 0 4px rgba(255,92,122,.12)}
+
+    .list{display:flex; flex-direction:column; gap:10px;}
+    .item{
+      border:1px solid var(--line);
+      background: rgba(0,0,0,.18);
+      border-radius: 14px;
+      padding:12px 12px;
+      display:grid;
+      grid-template-columns: 1fr auto;
+      gap:10px;
+    }
+    .itemTop{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+    .meta{
+      font-size:12px;
+      color:var(--muted);
+      margin-top:6px;
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+    .mono{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size:12px;
+      color:#dfe7ff;
+      background: rgba(255,255,255,.06);
+      border:1px solid var(--line);
+      padding:2px 6px;
+      border-radius:8px;
+    }
+    .txid{word-break: break-all; line-height: 1.2;}
+    .actions{display:flex; align-items:center; gap:8px; justify-content:flex-end;}
+    .ghost{
+      height:34px;
+      padding:0 10px;
+      border-radius:10px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      color: var(--muted);
+      font-weight:600;
+      box-shadow:none;
+    }
+
+    .empty{
+      border:1px dashed rgba(255,255,255,.18);
+      background: rgba(255,255,255,.02);
+      border-radius:14px;
+      padding:18px;
+      color:var(--muted);
+      font-size:13px;
+    }
+
+    .footerNote{
+      margin-top:14px;
+      color:rgba(168,179,214,.65);
+      font-size:12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo"></div>
+        <div>
+          <h1>Core Craft — TX Monitor</h1>
+          <div class="subtitle">Do fluxo à ação: criação → broadcast → mempool → bloco</div>
+        </div>
+      </div>
+      <div class="pill" title="Backend Flask rodando em 127.0.0.1:5000">
+        <span class="dot" id="apiDot"></span>
+        <span id="apiText">Conectando ao backend…</span>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- Card 1: Envio -->
+      <section class="card">
+        <div class="cardHeader">
+          <h2>Enviar transação <span class="tag">Signet / Bitcoin Core RPC</span></h2>
+          <span class="tag" id="lastStatusTag">status: —</span>
+        </div>
+
+        <div class="cardBody">
+          <div class="formRow">
+            <div>
+              <label for="address">Endereço destino</label>
+              <input id="address" placeholder="tb1q..." autocomplete="off" />
+            </div>
+
+            <div>
+              <label for="amount">Valor (BTC)</label>
+              <input id="amount" placeholder="0.00002" autocomplete="off" />
+            </div>
+
+            <div style="display:flex; align-items:flex-end;">
+              <button id="btnSend" onclick="sendTx()">Enviar</button>
+            </div>
+          </div>
+
+          <div class="hint">
+            <span>Dica: o front está em <code>localhost:8000</code> e o backend em <code>127.0.0.1:5000</code></span>
+            <span>Atualiza status automaticamente a cada <code>2s</code></span>
+          </div>
+
+          <div class="toast" id="toast" style="display:none;">
+            <div>
+              <strong id="toastTitle">—</strong>
+              <small id="toastBody">—</small>
+            </div>
+            <div class="right">
+              <span class="badge b-broadcast" id="toastBadge">
+                <span class="bDot"></span><span id="toastBadgeText">—</span>
+              </span>
+              <button class="ghost" onclick="hideToast()">Ok</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Card 2: Lista -->
+      <section class="card">
+        <div class="cardHeader">
+          <h2>Transações enviadas</h2>
+          <div style="display:flex; gap:8px; align-items:center;">
+            <span class="tag" id="countTag">0 itens</span>
+            <button class="ghost" onclick="clearHistory()">Limpar</button>
+          </div>
+        </div>
+
+        <div class="cardBody">
+          <div id="list" class="list"></div>
+          <div id="empty" class="empty">
+            Nenhuma transação enviada ainda. Envie a primeira pelo card acima.
+          </div>
+
+          <div class="footerNote">
+            Cada envio cria um item local nesta lista. Agora o front também consulta <code>/tx/&lt;txid&gt;</code> para atualizar confirmações antigas.
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+<script>
+  const API_BASE = "";
+
+  // Histórico local (persistente)
+  const STORAGE_KEY = "corecraft_tx_history_v2";
+  let history = loadHistory();
+
+  function nowIso(){ return new Date().toISOString(); }
+  function fmtTime(iso){
+    const d = new Date(iso);
+    return d.toLocaleString();
+  }
+
+  function loadHistory(){
+    try{
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if(!raw) return [];
+      const arr = JSON.parse(raw);
+      return Array.isArray(arr) ? arr : [];
+    }catch(e){ return []; }
+  }
+  function saveHistory(){
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(history));
+  }
+
+  function statusClass(status, confirmed){
+    if(status === "error" || status === "unknown") return "b-error";
+    if(confirmed || status === "confirmed") return "b-confirmed";
+    if(status === "mempool") return "b-mempool";
+    return "b-broadcast";
+  }
+  function statusLabel(status, confirmed){
+    if(status === "error" || status === "unknown") return "erro";
+    if(confirmed || status === "confirmed") return "confirmada";
+    if(status === "mempool") return "mempool";
+    return "broadcast";
+  }
+
+  function showToast(title, body, status="broadcast", confirmed=false){
+    const toast = document.getElementById("toast");
+    const badge = document.getElementById("toastBadge");
+    const badgeText = document.getElementById("toastBadgeText");
+
+    document.getElementById("toastTitle").innerText = title;
+    document.getElementById("toastBody").innerText = body;
+
+    badge.className = "badge " + statusClass(status, confirmed);
+    badgeText.innerText = statusLabel(status, confirmed);
+
+    toast.style.display = "flex";
+  }
+  function hideToast(){
+    document.getElementById("toast").style.display = "none";
+  }
+
+  function setBackendIndicator(ok, text){
+    const dot = document.getElementById("apiDot");
+    const label = document.getElementById("apiText");
+    label.innerText = text;
+
+    if(ok){
+      dot.style.background = "var(--ok)";
+      dot.style.boxShadow = "0 0 0 4px rgba(43,228,167,.12)";
+    }else{
+      dot.style.background = "var(--bad)";
+      dot.style.boxShadow = "0 0 0 4px rgba(255,92,122,.12)";
+    }
+  }
+
+  async function sendTx(){
+    const btn = document.getElementById("btnSend");
+    const address = document.getElementById("address").value.trim();
+    const amount = document.getElementById("amount").value.trim();
+
+    if(!address || !amount){
+      showToast("Campos obrigatórios", "Preencha endereço e valor antes de enviar.", "error", false);
+      return;
+    }
+
+    btn.disabled = true;
+
+    try{
+      const res = await fetch(`${API_BASE}/send`, {
+        method: "POST",
+        headers: {"Content-Type":"application/json"},
+        body: JSON.stringify({ address, amount })
+      });
+
+      const data = await res.json().catch(()=> ({}));
+
+      if(!res.ok){
+        const msg = data?.error || data?.message || `HTTP ${res.status}`;
+        showToast("Falha ao enviar", msg, "error", false);
+        btn.disabled = false;
+        return;
+      }
+
+      const txid = data.txid;
+      history.unshift({
+        txid,
+        address,
+        amount,
+        createdAt: nowIso(),
+        status: "broadcast",
+        confirmed: false,
+        block_hash: null
+      });
+      saveHistory();
+      render();
+
+      showToast("Transação enviada", `txid: ${txid}`, "broadcast", false);
+      setTimeout(hideToast, 4000);
+      document.getElementById("amount").value = "";
+
+    }catch(e){
+      showToast("Erro de rede", String(e), "error", false);
+    }finally{
+      btn.disabled = false;
+    }
+  }
+
+  function clearHistory(){
+    history = [];
+    saveHistory();
+    render();
+    showToast("Histórico limpo", "Lista de transações removida do navegador.", "broadcast", false);
+  }
+
+  function copy(text){
+    navigator.clipboard?.writeText(text).then(()=>{
+      showToast("Copiado", text, "mempool", false);
+    }).catch(()=>{
+      showToast("Não foi possível copiar", "Seu navegador bloqueou clipboard.", "error", false);
+    });
+  }
+
+  function render(){
+    const list = document.getElementById("list");
+    const empty = document.getElementById("empty");
+    const countTag = document.getElementById("countTag");
+
+    countTag.innerText = `${history.length} item${history.length === 1 ? "" : "s"}`;
+
+    list.innerHTML = "";
+
+    if(history.length === 0){
+      empty.style.display = "block";
+      return;
+    }
+    empty.style.display = "none";
+
+    for(const item of history){
+      const confirmed = !!item.confirmed;
+      const sClass = statusClass(item.status, confirmed);
+      const sLabel = statusLabel(item.status, confirmed);
+
+      const blockInfo = item.block_hash
+        ? `<span class="mono txid">bloco: ${item.block_hash}</span>`
+        : `<span class="mono">bloco: —</span>`;
+
+      const el = document.createElement("div");
+      el.className = "item";
+      el.innerHTML = `
+        <div>
+          <div class="itemTop">
+            <span class="badge ${sClass}">
+              <span class="bDot"></span>
+              <span>${sLabel}</span>
+            </span>
+            <span class="mono">${fmtTime(item.createdAt)}</span>
+          </div>
+
+          <div class="meta">
+            <span class="mono">destino: ${item.address}</span>
+            <span class="mono">valor: ${item.amount} BTC</span>
+          </div>
+
+          <div class="meta" style="margin-top:8px;">
+            <span class="mono txid">txid: ${item.txid}</span>
+            ${blockInfo}
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="ghost" onclick="copy('${item.txid}')">Copiar txid</button>
+          ${item.block_hash ? `<button class="ghost" onclick="copy('${item.block_hash}')">Copiar bloco</button>` : ``}
+        </div>
+      `;
+      list.appendChild(el);
+    }
+  }
+
+  // Atualiza o item ativo com base no /status (estado global do backend)
+  function applyBackendState(st){
+    const tag = document.getElementById("lastStatusTag");
+    tag.innerText = `status: ${st?.status || "—"}`;
+
+    const current = st?.current_txid;
+    if(!current) return;
+
+    const idx = history.findIndex(x => x.txid === current);
+    if(idx === -1) return;
+
+    history[idx].status = st.status || history[idx].status;
+    history[idx].confirmed = !!st.confirmed;
+    history[idx].block_hash = st.block_hash || history[idx].block_hash || null;
+
+    saveHistory();
+    render();
+  }
+
+  async function refreshOneTx(txid){
+    try{
+      const res = await fetch(`${API_BASE}/tx/${txid}`);
+      if(!res.ok) return null;
+      return await res.json();
+    }catch(e){
+      return null;
+    }
+  }
+
+  // Atualiza TODAS as transações pendentes consultando /tx/<txid>
+async function refreshPendingTxs(){
+  const pending = history.filter(x => !x.confirmed);
+
+  let changed = false;
+
+  for(const item of pending){
+    try{
+      const res = await fetch(`/tx/${item.txid}?t=${Date.now()}`);
+
+      if(!res.ok){
+        continue;
+      }
+
+      const st = await res.json();
+
+      if(st.status && st.status !== "unknown"){
+        item.status = st.status;
+      }
+
+      if(typeof st.confirmed === "boolean"){
+        item.confirmed = st.confirmed;
+      }
+
+      if(st.block_hash){
+        item.block_hash = st.block_hash;
+      }
+
+      changed = true;
+
+    }catch(e){
+      console.log("Erro ao atualizar tx:", item.txid, e);
+    }
+  }
+
+  if(changed){
+    saveHistory();
+    render();
+  }
+}
+
+  async function poll(){
+    try{
+      const res = await fetch(`${API_BASE}/status`);
+      if(!res.ok) throw new Error(`HTTP ${res.status}`);
+      const st = await res.json();
+
+      setBackendIndicator(true, "Backend online");
+      applyBackendState(st);
+
+      // ✅ novo: também atualiza transações antigas
+      await refreshPendingTxs();
+
+    }catch(e){
+      setBackendIndicator(false, "Backend offline");
+    }
+  }
+
+  render();
+  poll();
+  setInterval(poll, 2000);
+</script>
+</body>
+</html>
+
