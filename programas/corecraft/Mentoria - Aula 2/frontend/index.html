@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Core Craft • Node Activity Panel (Aula 2)</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="brand">
+        <div class="logo">CC</div>
+        <div>
+          <h1>Node Activity Panel</h1>
+          <p class="sub">RPC = fotografia • ZMQ = fluxo • Eventos ≠ confirmação</p>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="pill" id="healthPill">checando…</div>
+        <button class="btn" id="btnRefresh">Atualizar</button>
+      </div>
+    </header>
+
+    <section class="grid">
+      <div class="card">
+        <div class="cardHead">
+          <h2>Estado (RPC)</h2>
+          <span class="tag">request/response</span>
+        </div>
+
+        <div class="kv">
+          <div class="k">chain</div>
+          <div class="v" id="chain">—</div>
+
+          <div class="k">height</div>
+          <div class="v" id="height">—</div>
+
+          <div class="k">bestblockhash</div>
+          <div class="v mono" id="bestblockhash">—</div>
+
+          <div class="k">mempool size</div>
+          <div class="v" id="mempoolSize">—</div>
+        </div>
+
+        <div class="hint">
+          RPC responde “qual é o estado agora?”. Serve para confirmar e decidir.
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardHead">
+          <h2>Fluxo (ZMQ)</h2>
+          <span class="tag">event stream</span>
+        </div>
+
+        <div class="kv">
+          <div class="k">último bloco visto</div>
+          <div class="v mono" id="lastSeenBlock">—</div>
+
+          <div class="k">eventos de bloco</div>
+          <div class="v" id="blockCount">—</div>
+
+          <div class="k">eventos de tx</div>
+          <div class="v" id="txCount">—</div>
+        </div>
+
+        <div class="warn" id="divergenceWarn" style="display:none;">
+          ⚠ RPC bestblockhash ≠ último bloco visto via ZMQ.  
+          Pode ser latência, reorg, eventos fora de ordem ou timing do polling.
+        </div>
+
+        <div class="hint">
+          ZMQ avisa “algo aconteceu”. Não é confirmação. Não é fonte final.
+        </div>
+      </div>
+
+      <div class="card span2">
+        <div class="cardHead">
+          <h2>Últimos blocos (eventos)</h2>
+          <span class="tag">hashblock</span>
+        </div>
+        <div class="list" id="blockList"></div>
+      </div>
+
+      <div class="card span2">
+        <div class="cardHead">
+          <h2>Últimas txs vistas na mempool (eventos)</h2>
+          <span class="tag">hashtx</span>
+        </div>
+        <div class="list" id="txList"></div>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <div class="muted">
+        O frontend não escuta ZMQ. Ele só consome a API HTTP do backend.
+      </div>
+      <div class="muted" id="serverTime">—</div>
+    </footer>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
+
