@@ -247,6 +247,28 @@ O Bitcoin não tem controle central . Mineradores produzem blocos, desenvolvedor
 * Como alterar uma regra do Bitcoin Core, recompilar e demonstrar um fork estrutural na prática
 
 ---
+## ⛓️ [Curso 9 — Privacidade no Bitcoin: o que um node realmente sabe sobre você](https://bitcoincoders.org/curso/privacidade-no-bitcoin/)
+[**Link para o curso**](https://bitcoincoders.org/curso/privacidade-no-bitcoin/)
+
+**Resumo:**  
+
+O Bitcoin não é anônimo. Ele foi projetado para ser transparente e verificável, não para esconder dados. Cada transação revela inputs, outputs, valores e relações entre UTXOs, informações suficientes para identificar padrões, inferir comportamentos e conectar atividades. Neste Bitup, você vai ver na prática como a privacidade no Bitcoin realmente funciona: o que um node enxerga, como heurísticas simples permitem rastreamento e por que decisões aparentemente pequenas, como reutilizar um endereço ou misturar UTXOs, podem comprometer completamente sua privacidade.
+
+**O que você aprende:**
+
+* Por que a ideia de que “Bitcoin é anônimo” está errada
+* O que significa dizer que o Bitcoin é pseudônimo e não anônimo
+* O que um node realmente enxerga ao validar a blockchain (inputs, outputs, valores e histórico)
+* Como a estrutura das transações permite identificar padrões e inferir relações
+* Por que reutilização de endereço reduz drasticamente a privacidade
+* Como funciona o troco (change) e por que ele é uma das principais pistas de rastreamento
+* Por que múltiplos inputs na mesma transação sugerem controle pela mesma entidade (heurística)
+* O que acontece ao misturar UTXOs de origem KYC com não-KYC
+* Como rastrear manualmente transações e seguir UTXOs usando bitcoin-cli
+* Por que privacidade no Bitcoin não é padrão, é comportamento
+* Como estruturar melhor o uso de carteiras para reduzir vazamento de informação
+
+---
 ## 🧱 Como Usar os Cursos
 
 Você pode:
