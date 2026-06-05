@@ -339,7 +339,7 @@ Testemunho (Witness)
 
 Na imagem abaixo, o campo Witness aparece separado do ScriptSig.
 
-![image.png](10%20blocos%20marcantes%20da%20hist%C3%B3ria%20do%20Bitcoin%20(e%20o%20qu/image.png)
+![../artigo24-img2.webp](../artigo24-img2.webp)
 
 Antes do SegWit, as assinaturas ficavam inteiramente dentro do ScriptSig. Agora parte dessas informações passa a ser armazenada em uma nova estrutura chamada Witness. Essa separação parece pequena, mas mudou profundamente a forma como o Bitcoin organiza e valida transações.
 
