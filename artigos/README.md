@@ -428,6 +428,49 @@ Explora como o Bitcoin Core mantém o estado da blockchain e toma decisões sobr
 
 ---
 
+## 🚀 Bitcoin Core v31 na prática: o que mudou (com bitcoin-cli)
+
+[**Acesse o artigo aqui**](./artigos/artigo23-Bitcoin-Core-v31-na-prática.md)
+
+**Resumo**
+
+Explora as principais novidades da versão 31 do Bitcoin Core através de experimentos práticos com **bitcoin-cli**. O artigo compara diretamente a v31 com a v30, mostrando como a nova versão passa a expor conceitos mais avançados da mempool, como **clusters**, **chunks** e a competição econômica por espaço em bloco. Também apresenta novos RPCs e melhorias em comandos existentes, permitindo observar mudanças reais no comportamento do node.
+
+**O que você aprende**
+
+- Como comparar o comportamento do **Bitcoin Core v30 e v31**
+- O que são **clusters de transações** e como explorá-los com `getmempoolcluster`
+- Como interpretar **chunks**, `chunkweight` e `fees.chunk`
+- Como visualizar a **coinbase diretamente** com o novo campo `coinbase_tx`
+- Como rastrear quem gastou um output usando `gettxspendingprevout`
+- Como interpretar o **getmempoolfeeratediagram** e a competição por espaço em bloco
+- O impacto das mudanças da v31 na organização da mempool
+- Como a nova versão expõe melhor a estrutura econômica do Bitcoin
+
+---
+
+## 📖 10 blocos marcantes da história do Bitcoin (e o que eles ensinam)
+
+[**Acesse o artigo aqui**](./artigos/artigo24-10-blocos-marcantes.md)
+
+**Resumo**
+
+Explora dez blocos reais da blockchain que ajudam a entender momentos importantes da evolução do Bitcoin. Em vez de apresentar apenas teoria, o artigo utiliza blocos históricos como portas de entrada para conceitos fundamentais do protocolo, incluindo emissão monetária, UTXOs, halving, consenso, SegWit, Taproot, mineração e taxas. Cada bloco é analisado diretamente na blockchain, com exemplos usando exploradores e **bitcoin-cli**, mostrando como a história do Bitcoin pode ser observada através dos próprios dados da rede.
+
+**O que você aprende**
+
+- O significado do **Genesis Block** e da primeira coinbase
+- Como ocorreu a **primeira transação entre pessoas** (Satoshi → Hal Finney)
+- O que foi o bug dos **184 bilhões de bitcoins** e como a rede reagiu
+- Como funciona o **halving** e a política monetária programada
+- O impacto do **BIP66** e das assinaturas DER no consenso
+- Como o **SegWit** alterou a estrutura das transações
+- Por que um bloco pode ser válido mesmo sem criar novos bitcoins
+- O papel das **taxas de transação** na segurança futura da rede
+- Como a mineração é um processo probabilístico, mesmo para mineradores solo
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
