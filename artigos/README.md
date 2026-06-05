@@ -430,7 +430,7 @@ Explora como o Bitcoin Core mantém o estado da blockchain e toma decisões sobr
 
 ## 🚀 Bitcoin Core v31 na prática: o que mudou (com bitcoin-cli)
 
-[**Acesse o artigo aqui**](./artigos/artigo23-Bitcoin-Core-v31-na-prática.md)
+[**Acesse o artigo aqui**](artigo23-Bitcoin-Core-v31-na-prática.md)
 
 **Resumo**
 
@@ -451,7 +451,7 @@ Explora as principais novidades da versão 31 do Bitcoin Core através de experi
 
 ## 📖 10 blocos marcantes da história do Bitcoin (e o que eles ensinam)
 
-[**Acesse o artigo aqui**](./artigos/artigo24-10-blocos-marcantes.md)
+[**Acesse o artigo aqui**](artigo24-10-blocos-marcantes.md)
 
 **Resumo**
 
