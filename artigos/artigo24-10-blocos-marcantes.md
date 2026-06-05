@@ -469,7 +469,7 @@ OP_PUSHBYTES_32
 
 Na prática, estamos vendo os primeiros outputs Taproot aceitos pela rede Bitcoin. A figura abaixo mostra duas dessas saídas presentes na transação.
 
-![Captura de tela de 2026-06-01 15-02-25.png](10%20blocos%20marcantes%20da%20hist%C3%B3ria%20do%20Bitcoin%20(e%20o%20qu/Captura_de_tela_de_2026-06-01_15-02-25.png)
+![../assets/artigo24-img2.webp](../assets/artigo24-img2.webp)
 
 Para a maioria dos usuários, nada parecia ter mudado naquele dia. Carteiras continuaram funcionando normalmente, blocos continuaram sendo minerados e transações continuaram sendo confirmadas. Mas, internamente, o Bitcoin havia acabado de ganhar uma nova linguagem para representar condições de gasto.
 
