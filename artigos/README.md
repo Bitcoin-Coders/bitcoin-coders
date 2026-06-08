@@ -471,6 +471,27 @@ Explora dez blocos reais da blockchain que ajudam a entender momentos importante
 
 ---
 
+## 🌐 Erlay: a proposta que pode tornar a rede Bitcoin mais eficiente
+
+[**Acesse o artigo aqui**](artigo25-Erlay.md)
+
+**Resumo**
+
+Explora a proposta **Erlay**, uma melhoria para a camada P2P do Bitcoin que busca reduzir significativamente o tráfego necessário para a propagação de transações. O artigo apresenta como os nodes anunciam transações atualmente através das mensagens `inv`, `getdata` e `tx`, explica as limitações desse modelo e mostra como técnicas de **Set Reconciliation** e **Minisketch** podem permitir que nodes sincronizem suas mempools trocando apenas as diferenças entre elas. Ao final, laboratórios em regtest e exemplos práticos ajudam a visualizar tanto o modelo atual quanto a proposta do Erlay.
+
+**O que você aprende**
+
+- Como funciona a propagação de transações na rede **P2P do Bitcoin**
+- O papel das mensagens `inv`, `getdata` e `tx`
+- Por que a propagação atual gera tráfego redundante
+- O conceito de **Set Reconciliation**
+- Como funciona o **Minisketch** e a recuperação eficiente de diferenças
+- Como observar a propagação de transações em um laboratório com múltiplos nodes
+- Como o Erlay pode reduzir o consumo de banda sem alterar o consenso
+- Por que muitos desenvolvedores consideram o Erlay uma das propostas mais importantes para a escalabilidade da camada P2P
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
