@@ -218,7 +218,7 @@ Ainda no **Node A**, confirme as conexões:
 
 ```bash
 bitcoin-cli -datadir="." getpeerinfo
-**[
+[
   {
     "id": 0,
     "addr": "127.0.0.1:28542",...  
@@ -231,7 +231,7 @@ bitcoin-cli -datadir="." getpeerinfo
     "id": 2,
     "addr": "127.0.0.1:28744",...
   }
-]**
+]
 
 ```
 
