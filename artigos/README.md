@@ -492,6 +492,28 @@ Explora a proposta **Erlay**, uma melhoria para a camada P2P do Bitcoin que busc
 
 ---
 
+## 🧪 Por que já estão discutindo uma Testnet5 para o Bitcoin?
+
+[**Acesse o artigo aqui**](./artigo26-Testnet5.md)
+
+**Resumo**
+
+Explora a proposta de criação da **Testnet5**, uma nova rede de testes para o Bitcoin que busca substituir a Testnet4. O artigo apresenta os problemas causados pela regra de dificuldade mínima da testnet atual, discute os desafios de reproduzir o comportamento da mainnet em um ambiente de testes e analisa as principais mudanças propostas para a nova rede. Além dos aspectos técnicos, a discussão revela como incentivos econômicos, mineração e governança aberta continuam influenciando até mesmo as redes destinadas exclusivamente ao desenvolvimento.
+
+**O que você aprende**
+
+- O papel de **Regtest, Signet e Testnet** no ecossistema Bitcoin
+- Por que a **Testnet4** apresenta problemas de estabilidade
+- Como a exceção de **dificuldade mínima** afeta a rede
+- Quais são os objetivos da proposta **Testnet5**
+- O que é a **BIP54** e por que ela faz parte da discussão
+- Como incentivos econômicos podem surgir até em moedas de teste
+- O risco de um **"premine sem premine"** em novas redes
+- Como funciona o processo aberto de discussão e evolução das BIPs
+- Quais são os principais parâmetros técnicos propostos para a Testnet5
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
