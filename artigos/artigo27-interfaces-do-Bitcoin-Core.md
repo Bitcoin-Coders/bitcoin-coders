@@ -236,8 +236,3 @@ A nova IPC Interface surge como uma das candidatas a desempenhar um papel centra
 Escrito por:  
 
 Rafael Santos
-
-
-[Instagram (@area.bitcoin)](https://www.instagram.com/area.bitcoin/)
-
-[Area Bitcoin](https://www.youtube.com/c/AreaBitcoin)
