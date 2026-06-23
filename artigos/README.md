@@ -514,6 +514,28 @@ Explora a proposta de criação da **Testnet5**, uma nova rede de testes para o 
 
 ---
 
+## 🔌 O futuro das interfaces do Bitcoin Core: RPC, REST, ZMQ e IPC
+
+[**Acesse o artigo aqui**](./artigo27-interfaces-do-Bitcoin-Core.md)
+
+**Resumo**
+
+Explora as principais interfaces utilizadas por aplicações para interagir com o Bitcoin Core e discute como essa arquitetura pode evoluir nos próximos anos. O artigo apresenta o papel do **JSON-RPC**, **REST**, **ZMQ** e das notificações por shell, mostrando como wallets, exploradores, indexadores e sistemas Lightning dependem dessas camadas de integração. Também analisa a nova **IPC Interface**, suas vantagens, desafios e o debate atual sobre como reduzir duplicação de código sem comprometer a compatibilidade com o ecossistema existente.
+
+**O que você aprende**
+
+- Como aplicações externas se comunicam com o **Bitcoin Core**
+- O papel do **JSON-RPC** como interface principal do node
+- Quando utilizar **REST** em vez de RPC
+- Como o **ZMQ** fornece notificações em tempo real
+- Como funcionam as notificações por shell (`blocknotify` e `walletnotify`)
+- O que é a nova **IPC Interface** e por que ela está sendo desenvolvida
+- O problema da duplicação entre diferentes interfaces
+- Como a arquitetura do Bitcoin Core pode evoluir sem quebrar o ecossistema existente
+- Os desafios de compatibilidade envolvendo RPC, REST, ZMQ e IPC
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
