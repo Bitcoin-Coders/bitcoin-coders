@@ -536,6 +536,26 @@ Explora as principais interfaces utilizadas por aplicações para interagir com 
 
 ---
 
+## 📦 O futuro do Package Relay
+
+[**Acesse o artigo aqui**](./artigo28-Package-Relay.md)
+
+**Resumo**
+
+Explora a evolução das discussões sobre o **Package Relay**, uma proposta para permitir que o Bitcoin Core propague e avalie **conjuntos de transações relacionadas** em vez de tratá-las isoladamente. O artigo apresenta os desafios envolvendo **CPFP**, **Replace-by-Fee (RBF)** e topologias complexas de transações, mostrando por que os desenvolvedores passaram a priorizar casos práticos, como o modelo **1 Parent 1 Child (1p1c)**. Ao final, um laboratório em **regtest** demonstra na prática a construção de um pacote pai + filho utilizando **bitcoin-cli**.
+
+**O que você aprende**
+
+- O que é o **Package Relay** e qual problema ele busca resolver
+- Por que validar e substituir **pacotes arbitrários** é um desafio
+- Como o **Replace-by-Fee (RBF)** influencia o tratamento de pacotes
+- Por que o modelo **1 Parent 1 Child (1p1c)** se tornou o foco atual
+- O papel do **CPFP (Child Pays For Parent)** na confirmação de transações
+- Como construir e analisar um pacote **pai + filha** em **regtest**
+- Como a evolução do Package Relay reflete a busca por soluções mais simples e previsíveis no Bitcoin
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
