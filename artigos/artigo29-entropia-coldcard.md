@@ -2,19 +2,18 @@
 
 Em 30 de julho de 2026, a Coinkite publicou o alerta de segurança “Mk3 Security Advisory”, atualizado no dia seguinte. O aviso informa que seeds geradas em dispositivos COLDCARD Mk3 com firmware entre as versões 4.0.1 e 4.1.9 podem estar em risco.
 
-Em uma migração realizada em 2021, o código de geração de seeds passou de `ckcc.rng_bytes()` para `ngu.random.bytes()`. A intenção era continuar usando o gerador aleatório de hardware da COLDCARD, mas, devido à forma como as implementações foram integradas e resolvidas durante a compilação, essa chamada acabou alcançando o PRNG de fallback do MicroPython.
+O problema não estava no formato ou na aparência da seed. O dispositivo podia produzir uma seed aparentemente normal, mas o gerador utilizado para criá-la podia partir de um número de estados internos muito menor do que o esperado. Em outras palavras, a sequência final parecia aleatória, embora tivesse sido escolhida dentro de um conjunto reduzido de possibilidades.
+
+Neste artigo, demonstramos esse princípio com um laboratório em Python. Criamos espaços internos artificialmente limitados (8, 16, 20, 24, 32 e 40 bits) e, a partir deles, geramos sequências de 256 bits. Embora essas sequências tenham aparência aleatória, algumas começam a se repetir conforme aumentamos o número de amostras. Contando essas repetições, chamadas de colisões, conseguimos estimar o tamanho real do espaço que as produziu. Sem reproduzir o código vulnerável da COLDCARD, o experimento isola esse efeito e permite observá-lo em um ambiente controlado.
+
+Para entender como essa redução de entropia ocorreu na COLDCARD, precisamos olhar para uma mudança feita no caminho de geração das seeds. Em uma migração realizada em 2021, o código de geração de seeds passou de ckcc.rng_bytes() para ngu.random.bytes(). A intenção era continuar usando o gerador aleatório de hardware da COLDCARD, mas, devido à forma como as implementações foram integradas e resolvidas durante a compilação, essa chamada acabou alcançando o PRNG de fallback do MicroPython.
 
 Na prática, o código do gerador de hardware continuava presente no firmware, mas aquela chamada não chegava até ele no caminho de geração da seed. Na Mk3, o PRNG efetivamente utilizado era alimentado principalmente por estados do dispositivo e informações de temporização, o que levou a Coinkite a estimar preliminarmente um espaço efetivo de aproximadamente 40 bits. Nos modelos Mk4, Mk5 e Q, valores adicionais dos secure elements foram misturados ao estado do gerador, elevando a estimativa para cerca de 72 bits.
 
-Este artigo não tenta reproduzir a implementação vulnerável da COLDCARD. Em vez disso, usamos um modelo sintético para demonstrar como uma saída pode parecer perfeitamente aleatória mesmo quando foi produzida a partir de um espaço interno muito menor do que o esperado.
-
 Antes de continuar, é importante deixar muito claro:
-
-> O nosso laboratório mede o tamanho de um espaço sintético por meio de colisões. Ele não simula busca por seeds, endereços ou fundos.
-> 
+> O nosso laboratório mede o tamanho de espaços sintéticos por meio de colisões. Ele não simula a busca por seeds, endereços ou fundos.
 
 O laboratório também não:
-
 - gera palavras BIP39;
 - deriva chaves privadas;
 - deriva chaves públicas;
