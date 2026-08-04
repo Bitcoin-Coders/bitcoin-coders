@@ -223,7 +223,7 @@ A tabela abaixo compara:
 
 Um mesmo valor que aparece várias vezes pode formar vários pares de colisão. Por exemplo, se uma saída aparecer três vezes, ela produzirá três pares: primeira com segunda, primeira com terceira e segunda com terceira. Por isso, a quantidade de pares de colisão pode ser maior que o número de amostras.
 
-![**Figura 1 – Comparação consolidada dos resultados finais do laboratório sintético.** As colisões observadas acompanham de perto a previsão matemática e permitem recuperar o tamanho efetivo do espaço enquanto há colisões suficientes. Foram usadas 50 mil amostras nos ensaios de 8, 16 e 20 bits e 1 milhão nos ensaios de 24, 32 e 40 bits.](A%20falha%20de%20entropia%20da%20COLDCARD%20quando%20a%20aleatorie/combined_comparison_final.png)
+![**Figura 1 – Comparação consolidada dos resultados finais do laboratório sintético.** As colisões observadas acompanham de perto a previsão matemática e permitem recuperar o tamanho efetivo do espaço enquanto há colisões suficientes. Foram usadas 50 mil amostras nos ensaios de 8, 16 e 20 bits e 1 milhão nos ensaios de 24, 32 e 40 bits.](../assets/combined_comparison_final.webp)
 
 **Figura 1 – Comparação consolidada dos resultados finais do laboratório sintético.** As colisões observadas acompanham de perto a previsão matemática e permitem recuperar o tamanho efetivo do espaço enquanto há colisões suficientes. Foram usadas 50 mil amostras nos ensaios de 8, 16 e 20 bits e 1 milhão nos ensaios de 24, 32 e 40 bits.
 
