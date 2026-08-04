@@ -55,7 +55,7 @@ Exemplo com 32 bits e 1 milhão de amostras:
 
 ## Resultados publicados
 
-| Estado interno | Amostras | Colisões observadas | Bits estimados |
+| Estado interno | Amostras | Pares de colisão observados | Bits estimados |
 |---:|---:|---:|---:|
 | 8 bits | 50.000 | 4.883.771 | 8,00 |
 | 16 bits | 50.000 | 19.159 | 15,99 |
@@ -63,6 +63,8 @@ Exemplo com 32 bits e 1 milhão de amostras:
 | 24 bits | 1.000.000 | 29.972 | 23,9918 |
 | 32 bits | 1.000.000 | 113 | 32,043 |
 | 40 bits | 1.000.000 | 1 | inconclusivo |
+
+Um mesmo valor que aparece várias vezes pode formar vários pares de colisão. Por isso, a quantidade de pares pode ser maior que o número de amostras.
 
 O caso de 40 bits é inconclusivo porque uma única colisão não permite estimar o espaço com estabilidade.
 
