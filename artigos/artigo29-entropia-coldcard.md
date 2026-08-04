@@ -266,7 +266,7 @@ No ensaio de 24 bits com 1 milhão de amostras, obtivemos:
 | Distância de Hamming média | 127,999 | 128,005 |
 | Pares de colisão | 0 | 29.972 |
 
-![**Figura 2 – Comparação entre a referência uniforme e o modelo com estado interno de 24 bits após 1 milhão de gerações.** O equilíbrio dos bits e a distância de Hamming são praticamente indistinguíveis, mas o conjunto de estado reduzido apresenta 29.371 observações duplicadas.](A%20falha%20de%20entropia%20da%20COLDCARD%20quando%20a%20aleatorie/entropy_comparison.png)
+![**Figura 2 – Comparação entre a referência uniforme e o modelo com estado interno de 24 bits após 1 milhão de gerações.** O equilíbrio dos bits e a distância de Hamming são praticamente indistinguíveis, mas o conjunto de estado reduzido apresenta 29.371 observações duplicadas.](../assets/entropy_comparison.webp)
 
 **Figura 2 – Comparação entre a referência uniforme e o modelo com estado interno de 24 bits após 1 milhão de gerações.** O equilíbrio dos bits e a distância de Hamming são praticamente indistinguíveis, mas o conjunto de estado reduzido apresenta 29.371 observações duplicadas.
 
