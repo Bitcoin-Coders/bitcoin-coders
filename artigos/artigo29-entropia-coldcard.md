@@ -463,10 +463,8 @@ O caso da COLDCARD mostra por que a qualidade do processo de geração é tão i
     
 - Bitcoin Coders — código-fonte e resultados do laboratório:
     
-    [https://github.com/Bitcoin-Coders/bitcoin-coders](https://github.com/Bitcoin-Coders/bitcoin-coders)
+    [https://github.com/Bitcoin-Coders/bitcoin-coders/tree/main/laboratorios/entropia-coldcard](https://github.com/Bitcoin-Coders/bitcoin-coders/tree/main/laboratorios/entropia-coldcard)
     
-
-![IMG-20250722-WA0010.jpg](A%20falha%20de%20entropia%20da%20COLDCARD%20quando%20a%20aleatorie/7d12c3ef-1d0d-4c45-8cf9-96c904b1cb21.png)
 
 Escrito por:  
 
