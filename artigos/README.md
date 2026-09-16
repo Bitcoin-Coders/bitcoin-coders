@@ -556,6 +556,69 @@ Explora a evolução das discussões sobre o **Package Relay**, uma proposta par
 
 ---
 
+
+## 🔐 A falha de entropia da COLDCARD: quando a aleatoriedade aparente engana
+
+[**Acesse o artigo aqui**](./artigo29-entropia-coldcard.md)
+
+**Resumo**
+
+Explora a falha de entropia identificada em versões antigas da COLDCARD Mk3 e mostra por que uma saída que parece aleatória pode, na prática, ter sido gerada a partir de um espaço interno muito menor do que o esperado. O artigo usa um laboratório sintético em **Python** para comparar diferentes níveis de entropia e demonstrar como colisões podem revelar o tamanho efetivo do espaço de estados de um gerador.
+
+**O que você aprende**
+
+- O que significa uma seed ter **128 bits de entropia**
+- Por que uma saída de **256 bits** não garante 256 bits de entropia
+- Como uma falha no gerador pode reduzir drasticamente o espaço real de possibilidades
+- O que são **colisões** e como elas ajudam a estimar o tamanho de um espaço aleatório
+- Como interpretar métricas como entropia de Shannon, distância de Hamming e correlação serial
+- Como um laboratório controlado em **Python** pode demonstrar o problema sem trabalhar com seeds ou carteiras reais
+- Por que a qualidade da fonte de aleatoriedade é crítica para a segurança de uma carteira Bitcoin
+
+---
+
+## 🌿 Stale Tip Relay: a proposta para enxergar blocos que perderam a corrida
+
+[**Acesse o artigo aqui**](./artigo30-Stale-Tip-Relay.md)
+
+**Resumo**
+
+Explora a proposta **Stale Tip Relay**, apresentada para permitir que nodes Bitcoin compartilhem informações sobre branches recentes que perderam a disputa pela cadeia com mais trabalho. O artigo mostra, por meio de um laboratório com três nodes em **regtest**, como dois nodes podem concordar perfeitamente sobre a blockchain ativa e ainda assim conhecer históricos diferentes de blocos stale. A partir disso, apresenta a nova mensagem P2P `staletip` e discute seus possíveis benefícios e custos.
+
+**O que você aprende**
+
+- O que é um **stale block** e como ele surge
+- Por que nem todos os nodes necessariamente conhecem os mesmos blocos stale
+- Como criar branches concorrentes em um laboratório com múltiplos nodes em **regtest**
+- Como usar `getchaintips` para observar uma `valid-fork`
+- Qual problema a proposta **Stale Tip Relay** tenta resolver
+- Como funcionaria a nova mensagem P2P `staletip`
+- Como a proposta pode melhorar a observabilidade da rede sem alterar o consenso
+- Quais preocupações existem envolvendo **DoS, fingerprinting e complexidade adicional**
+
+---
+
+## 🔑 Sua chave pública já apareceu na blockchain?
+
+[**Acesse o artigo aqui**](./artigo31-chave-pública-na-blockchain.md)
+
+**Resumo**
+
+Explora uma diferença importante entre tipos de outputs Bitcoin: em alguns casos, a chave pública já está visível na blockchain; em outros, apenas um hash ou compromisso com ela aparece até o momento do gasto. O artigo mostra como isso funciona em outputs **P2WPKH**, discute o impacto do reuso de endereços e apresenta uma proposta recente para padronizar a classificação de outputs conforme o nível de exposição de suas chaves públicas, tema que ganhou relevância com as discussões sobre segurança pós-quântica.
+
+**O que você aprende**
+
+- Quando uma **chave pública** aparece na blockchain
+- Como um output **P2WPKH** esconde a chave pública até o momento do gasto
+- Por que o **reuso de endereços** pode expor a chave pública de outros UTXOs
+- A diferença entre uma chave pública conhecida e apenas seu hash conhecido
+- Por que essa distinção importa nas discussões sobre **computação quântica**
+- O significado das classificações `EXPOSED_AT_REST`, `EXPOSED_ON_SPEND`, `NOT_EXPOSED` e `UNDETERMINED`
+- Por que outputs **Taproot (P2TR)** já expõem uma chave pública no `scriptPubKey`
+- Por que uma classificação padronizada pode ser importante para futuras estratégias de migração pós-quântica
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
