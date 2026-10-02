@@ -619,6 +619,26 @@ Explora uma diferença importante entre tipos de outputs Bitcoin: em alguns caso
 
 ---
 
+## 📊 Implementando métricas on-chain com Bitcoin Core
+
+[**Acesse o artigo aqui**](./artigo32-métricas-on-chain.md)
+
+**Resumo**
+
+Mostra como métricas on-chain podem ser construídas diretamente a partir dos dados expostos pelo **Bitcoin Core**. O artigo implementa, em **Python**, duas métricas simples (utilização dos blocos e fee rate mediano das transações) e aplica o coletor aos últimos 144 blocos da **mainnet**, mostrando como diferentes indicadores ajudam a interpretar o comportamento da rede.
+
+**O que você aprende**
+
+- Como dados brutos da blockchain podem ser transformados em **métricas on-chain**
+- Como calcular a **utilização de um bloco** a partir do `weight`
+- Como calcular o **fee rate** de uma transação usando `fee` e `vsize`
+- Como construir um pequeno coletor de métricas utilizando **Bitcoin Core e Python**
+- Como analisar os últimos **144 blocos da mainnet** e construir uma série temporal
+- Por que **bloco cheio não significa necessariamente fee rate alto**
+- Como o mesmo processo pode ser generalizado para métricas como **idade de UTXOs, Coin Days Destroyed e realized cap**
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
