@@ -263,7 +263,7 @@ Fee rate mediano:        1,20 sat/vB
 
 A Figura abaixo mostra as duas métricas ao longo do período. Como dois blocos apresentaram utilização muito baixa, o painel superior utiliza uma escala ampliada para mostrar com mais detalhe os demais blocos.
 
-![**Figura 1 —** Utilização dos blocos e fee rate mediano nos últimos 144 blocos da mainnet.](Implementando%20m%C3%A9tricas%20on-chain%20com%20Bitcoin%20Core/grafico_metricas_mainnet_144.png)
+![**Figura 1 —** Utilização dos blocos e fee rate mediano nos últimos 144 blocos da mainnet.](../assets/grafico_metricas_mainnet_144.png)
 
 **Figura 1 —** Utilização dos blocos e fee rate mediano nos últimos 144 blocos da mainnet.
 
