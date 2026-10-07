@@ -639,6 +639,27 @@ Mostra como métricas on-chain podem ser construídas diretamente a partir dos d
 
 ---
 
+## 🧠 O que acontece quando a mempool do Bitcoin fica cheia?
+
+[**Acesse o artigo aqui**](./artigo33-mempool-cheia.md)
+
+**Resumo**
+
+Investiga na prática o que acontece quando a mempool de um node Bitcoin atinge seu limite de memória. Em um laboratório com **Bitcoin Core em regtest**, o artigo limita a mempool a 5 MB, preenche o espaço com transações de diferentes fee rates e observa como o node começa a remover transações menos competitivas e elevar dinamicamente o `mempoolminfee`.
+
+**O que você aprende**
+
+- Como limitar o tamanho da **mempool** com `maxmempool`
+- A diferença entre `bytes`, `usage` e `maxmempool`
+- Como gerar muitos UTXOs independentes para um experimento em **regtest**
+- Como construir transações com diferentes **fee rates**
+- O que acontece quando a mempool atinge seu limite de memória
+- Como o Bitcoin Core remove transações de menor fee rate para liberar espaço
+- Como e por que o `mempoolminfee` aumenta quando há pressão sobre a mempool
+- Por que uma nova transação pode ser rejeitada mesmo quando ainda existem transações antigas com fee rate menor dentro da mempool
+
+---
+
 # 🧭 Como Usar os Artigos
 
 Você pode:
